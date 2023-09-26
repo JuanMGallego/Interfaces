@@ -1,0 +1,16 @@
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\bin\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.exe
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\bin\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.deps.json
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\bin\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.runtimeconfig.json
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\bin\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\bin\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.pdb
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.Form1.resources
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.vbproj.GenerateResource.cache
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.AssemblyInfoInputs.cache
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.AssemblyInfo.vb
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.vbproj.CoreCompileInputs.cache
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\refint\HolaMundo_VB_WindowsForm.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.pdb
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\HolaMundo_VB_WindowsForm.genruntimeconfig.cache
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Ejercicio01_Unidad03\HolaMundo_VB_WindowsForm\obj\Debug\net7.0-windows\ref\HolaMundo_VB_WindowsForm.dll
