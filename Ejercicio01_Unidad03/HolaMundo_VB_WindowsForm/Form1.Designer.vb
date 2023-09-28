@@ -22,10 +22,39 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form1"
+        Saludar = New Button()
+        txtnombre = New TextBox()
+        SuspendLayout()
+        ' 
+        ' Saludar
+        ' 
+        Saludar.Location = New Point(528, 202)
+        Saludar.Name = "Saludar"
+        Saludar.Size = New Size(102, 25)
+        Saludar.TabIndex = 0
+        Saludar.Text = "Saludar"
+        Saludar.UseVisualStyleBackColor = True
+        ' 
+        ' txtnombre
+        ' 
+        txtnombre.Location = New Point(168, 202)
+        txtnombre.Name = "txtnombre"
+        txtnombre.Size = New Size(354, 23)
+        txtnombre.TabIndex = 1
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 450)
+        Controls.Add(txtnombre)
+        Controls.Add(Saludar)
+        Name = "Form1"
+        Text = "Form1"
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
 
+    Friend WithEvents Saludar As Button
+    Friend WithEvents txtnombre As TextBox
 End Class

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {}
+    "net7.0-windows7.0": {
+      "LibreriaComun/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/LibreriaComun.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibreriaComun.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LibreriaComun/1.0.0": {
+      "type": "project",
+      "path": "../LibreriaComun/LibreriaComun.csproj",
+      "msbuildProject": "../LibreriaComun/LibreriaComun.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": []
+    "net7.0-windows7.0": [
+      "LibreriaComun >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\jmgallego\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\Ejercicio01_Unidad03\\LibreriaComun\\LibreriaComun.csproj": {
+              "projectPath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\Ejercicio01_Unidad03\\LibreriaComun\\LibreriaComun.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
