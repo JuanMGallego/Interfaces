@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "gQXFkGPK9k0K304O9fg6/j6+sbFKCPgjfR5P8SxuDrqmbuIAmuXDHTMCgXBW6setIltpEFswtU9Cn99WNr8IFQ==",
-  "success": true,
+  "dgSpecHash": "SsfV79UI1iNtPgL8JeStaOTNl65UOKIxUA+H24/vN2PtTr2QU5x+HulflnO7SUweYmnFMp3Eap4m+hLgsyYheQ==",
+  "success": false,
   "projectFilePath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\Ejercicio01_Unidad03\\HolaMundo_VB_WindowsForm\\HolaMundo_VB_WindowsForm.vbproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto LibreríaWUniversal no es compatible con net7.0-windows7.0 (.NETCoreApp,Version=v7.0). El proyecto LibreríaWUniversal admite: uap10.0.17763 (UAP,Version=v10.0.17763)",
+      "libraryId": "LibreríaWUniversal",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
 }

@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net7.0-windows7.0": {
-      "LibreriaComun/1.0.0": {
+      "LibreríaWUniversal/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": "Unsupported,Version=v0.0",
         "compile": {
-          "bin/placeholder/LibreriaComun.dll": {}
+          "bin/placeholder/LibreríaWUniversal.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LibreriaComun.dll": {}
+          "bin/placeholder/LibreríaWUniversal.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "LibreriaComun/1.0.0": {
+    "LibreríaWUniversal/1.0.0": {
       "type": "project",
-      "path": "../LibreriaComun/LibreriaComun.csproj",
-      "msbuildProject": "../LibreriaComun/LibreriaComun.csproj"
+      "path": "../LibreríaWUniversal/LibreríaWUniversal.csproj",
+      "msbuildProject": "../LibreríaWUniversal/LibreríaWUniversal.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
-      "LibreriaComun >= 1.0.0"
+      "LibreríaWUniversal >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -59,8 +59,8 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\Ejercicio01_Unidad03\\LibreriaComun\\LibreriaComun.csproj": {
-              "projectPath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\Ejercicio01_Unidad03\\LibreriaComun\\LibreriaComun.csproj"
+            "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\Ejercicio01_Unidad03\\LibreríaWUniversal\\LibreríaWUniversal.csproj": {
+              "projectPath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\Ejercicio01_Unidad03\\LibreríaWUniversal\\LibreríaWUniversal.csproj"
             }
           }
         }
@@ -96,5 +96,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto LibreríaWUniversal no es compatible con net7.0-windows7.0 (.NETCoreApp,Version=v7.0). El proyecto LibreríaWUniversal admite: uap10.0.17763 (UAP,Version=v10.0.17763)",
+      "libraryId": "LibreríaWUniversal",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
 }

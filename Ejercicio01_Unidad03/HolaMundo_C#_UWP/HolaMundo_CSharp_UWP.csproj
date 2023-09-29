@@ -154,6 +154,12 @@
       <Version>6.2.14</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibreríaWUniversal\LibreríaWUniversal.csproj">
+      <Project>{dbb7dd36-07fd-41f0-9ff8-85674ccbf7a8}</Project>
+      <Name>LibreríaWUniversal</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
