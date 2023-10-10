@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Unidad5Ejercicio2_SlideProgressBar.MainPage">
+
+    <StackLayout>
+        <Label Text="Barra de progreso enlazada por un Slider:" TextColor="Orange" FontSize="20" HorizontalTextAlignment="Center" FontAttributes="Bold" Margin="50"/>
+        <Slider x:Name="slider" Maximum="100" WidthRequest="500" ValueChanged="OnSliderValueChanged"/>
+        <ProgressBar x:Name="progressBar" WidthRequest="100" HeightRequest="20" Progress="0"/>
+    </StackLayout>
+
+</ContentPage>

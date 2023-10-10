@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad5Ejercicio1_HolaMundo\Unidad5Ejercicio1_HolaMundo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-05T11:45:13.907</Modified>
+      <Modified>2023-10-10T10:51:19.943</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad5Ejercicio1_HolaMundo\Unidad5Ejercicio1_HolaMundo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Unidad5Ejercicio1_HolaMundo.dll">
       <PackagePath>Unidad5Ejercicio1_HolaMundo.dll</PackagePath>
-      <Modified>2023-10-05T11:45:12.645</Modified>
+      <Modified>2023-10-10T10:51:18.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad5Ejercicio1_HolaMundo\Unidad5Ejercicio1_HolaMundo\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Unidad5Ejercicio1_HolaMundo.exe</PackagePath>
-      <Modified>2023-10-05T11:45:12.664</Modified>
+      <Modified>2023-10-10T10:51:18.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad5Ejercicio1_HolaMundo\Unidad5Ejercicio1_HolaMundo\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Unidad5Ejercicio1_HolaMundo.deps.json">
       <PackagePath>Unidad5Ejercicio1_HolaMundo.deps.json</PackagePath>

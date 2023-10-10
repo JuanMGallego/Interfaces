@@ -12,8 +12,10 @@
         private async void OnCounterClicked(object sender, EventArgs e)
         {
 
-            string result = await DisplayPromptAsync("Pregunta", "¿Cómo te apellidas?");
+            string result = await DisplayPromptAsync("Pregunta", "¿Cual es tu apellido?");
             await DisplayAlert("Saludo", "Hola " + nombre.Text + " " + result, "OK");
         }
+
     }
+
 }
