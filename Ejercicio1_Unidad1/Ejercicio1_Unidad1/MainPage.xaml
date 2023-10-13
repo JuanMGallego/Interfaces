@@ -22,6 +22,7 @@
                 FontSize="16"
                 FontAttributes="Bold"
                 BorderColor="Yellow"
+                IsEnabled="True"
                 />
 
             <Button x:Name="boton2" Clicked="OnCounterClicked">
@@ -36,6 +37,7 @@
                 <Button.FontSize>16</Button.FontSize>
                 <Button.FontAttributes>Bold</Button.FontAttributes>
                 <Button.BorderColor>yellow</Button.BorderColor>
+                <Button.IsEnabled>True</Button.IsEnabled>
             </Button>
 
         </VerticalStackLayout>
