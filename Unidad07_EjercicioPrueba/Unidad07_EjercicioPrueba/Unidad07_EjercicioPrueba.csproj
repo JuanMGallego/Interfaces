@@ -52,4 +52,34 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Views\Pagina3.xaml.cs">
+	    <DependentUpon>Pagina3.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\Pagina2.xaml.cs">
+	    <DependentUpon>Pagina2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\Pagina1.xaml.cs">
+	    <DependentUpon>Pagina1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\PaginaTabbed.xaml.cs">
+	    <DependentUpon>PaginaTabbed.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\Pagina3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Pagina2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Pagina1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\PaginaTabbed.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
