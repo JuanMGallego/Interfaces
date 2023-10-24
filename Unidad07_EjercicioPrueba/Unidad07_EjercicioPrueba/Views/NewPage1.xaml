@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Unidad07_EjercicioPrueba.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="miEntry" Placeholder="Escribe algo aquí" />
+        <Button Text="Ir a Página Tabulada" Clicked="OnTabbedPageButtonClicked" />
+    </StackLayout>
+</ContentPage>

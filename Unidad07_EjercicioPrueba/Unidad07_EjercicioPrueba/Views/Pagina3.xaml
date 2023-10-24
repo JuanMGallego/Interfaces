@@ -2,10 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Unidad07_EjercicioPrueba.Views.Pagina3"
-             Title="NewPage1">
+             Title="Pagina3">
 
     <StackLayout>
-        <Label Text="Hola soy la página 1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-    </StackLayout> >
+        <Label Text="Hola soy la página 3" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Margin="20"/>
+        <Button Text="Volver" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" Clicked="OnBackToMainPageButtonClicked"/>
+    </StackLayout>
 
 </ContentPage>

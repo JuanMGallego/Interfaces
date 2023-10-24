@@ -1,4 +1,6 @@
-﻿namespace Unidad07_EjercicioPrueba.Views
+﻿using Unidad07_EjercicioPrueba.Views;
+
+namespace Unidad07_EjercicioPrueba
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new PaginaTabbed();
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }   

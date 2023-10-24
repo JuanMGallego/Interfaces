@@ -16,18 +16,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Unidad07_EjercicioPrueba.A
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad07_EjercicioPrueba/Unidad07_EjercicioPrueba/AppShell.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Unidad07_EjercicioPrueba.AppShell.xaml
-build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
-build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
-
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad07_EjercicioPrueba/Unidad07_EjercicioPrueba/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Unidad07_EjercicioPrueba.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
 [C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad07_EjercicioPrueba/Unidad07_EjercicioPrueba/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad07_EjercicioPrueba.Resources.Styles.Colors.xaml
@@ -39,6 +27,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad07_EjercicioPrueba.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad07_EjercicioPrueba/Unidad07_EjercicioPrueba/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Unidad07_EjercicioPrueba.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
 
 [C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad07_EjercicioPrueba/Unidad07_EjercicioPrueba/Views/Pagina1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

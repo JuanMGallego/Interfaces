@@ -1,9 +1,13 @@
 namespace Unidad07_EjercicioPrueba.Views;
 
-public partial class NewPage1 : ContentPage
+public partial class Pagina3 : ContentPage
 {
-	public NewPage1()
+	public Pagina3()
 	{
 		InitializeComponent();
 	}
+    private async void OnBackToMainPageButtonClicked(object sender, EventArgs e)
+    {
+        await Navigation.PopToRootAsync();
+    }
 }

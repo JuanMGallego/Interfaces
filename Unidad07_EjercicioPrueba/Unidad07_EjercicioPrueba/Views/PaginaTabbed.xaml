@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Unidad07_EjercicioPrueba.Views"
              x:Class="Unidad07_EjercicioPrueba.Views.PaginaTabbed"
              Title="PaginaTabbed">
-        
-        <local:Pagina1 Title="Página 1">
-            <!-- Página 1 Content -->
-        </local:Pagina1>
-        <local:Pagina2 Title="Página 2">
-            <!-- Página 2 Content -->
-        </local:Pagina2>
-        <local:Pagina3 Title="Página 3">
-            <!-- Página 3 Content -->
-        </local:Pagina3>
 
-</ContentPage>
+    <local:Pagina1></local:Pagina1>
+    <local:Pagina2></local:Pagina2>
+    <local:Pagina3></local:Pagina3>
+
+</TabbedPage>
