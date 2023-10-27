@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad07_EjercicioPrueba\Unidad07_EjercicioPrueba\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-24T12:33:58.468</Modified>
+      <Modified>2023-10-27T06:53:58.516</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad07_EjercicioPrueba\Unidad07_EjercicioPrueba\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Unidad07_EjercicioPrueba.dll">
       <PackagePath>Unidad07_EjercicioPrueba.dll</PackagePath>
-      <Modified>2023-10-24T12:33:57.557</Modified>
+      <Modified>2023-10-27T06:53:57.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad07_EjercicioPrueba\Unidad07_EjercicioPrueba\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Unidad07_EjercicioPrueba.exe</PackagePath>
-      <Modified>2023-10-24T12:33:57.563</Modified>
+      <Modified>2023-10-27T06:53:57.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad07_EjercicioPrueba\Unidad07_EjercicioPrueba\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Unidad07_EjercicioPrueba.deps.json">
       <PackagePath>Unidad07_EjercicioPrueba.deps.json</PackagePath>

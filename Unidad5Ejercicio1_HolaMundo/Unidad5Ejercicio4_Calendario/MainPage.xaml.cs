@@ -7,18 +7,19 @@
         {
             InitializeComponent();
             entradaDatePicker.MinimumDate = DateTime.Now;
-            salidaDatePicker.MinimumDate = entradaDatePicker.Date;
+            salidaDatePicker.Date = DateTime.Now.AddDays(1);
         }
 
         private void EntradaDateSelected(object sender, DateChangedEventArgs e)
         {
             
-            salidaDatePicker.MinimumDate = e.NewDate;
+            salidaDatePicker.MinimumDate = e.NewDate.AddDays(1);
         }
 
         private void SalidaDateSelected(object sender, DateChangedEventArgs e)
         {
-            
+
+            entradaDatePicker.MaximumDate = salidaDatePicker.Date;
         }
     }
 }
