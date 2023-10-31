@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio01.MainPage">
+
+    <Border Stroke="Purple" StrokeShape="RoundRectangle 20, 20, 0, 0" StrokeThickness="5" Padding="10" Margin="10">
+
+        <StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+                <Button Text="Botón 1" WidthRequest="100" BorderColor="Black" BorderWidth="4" Padding="10" Margin="5" />
+                <Button Text="Botón 2" WidthRequest="100" Padding="10" Margin="5" />
+                <Button Text="Botón 3" WidthRequest="100" Padding="10" Margin="5" />
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="10">
+
+                    <Label Text="Nombre:" FontAttributes="Bold" VerticalOptions="Center" Margin="0,0,10,0"/>
+
+                    <Entry BackgroundColor="#ADD8E6" VerticalOptions="Center" WidthRequest="300"/>
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </Border>
+
+
+</ContentPage>
