@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad08_Ejercicio01\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-31T09:51:00.707</Modified>
+      <Modified>2023-10-31T12:05:29.736</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad08_Ejercicio01\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio01.dll">
       <PackagePath>Ejercicio01.dll</PackagePath>
-      <Modified>2023-10-31T09:50:59.573</Modified>
+      <Modified>2023-10-31T12:05:28.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad08_Ejercicio01\Ejercicio01\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ejercicio01.exe</PackagePath>
-      <Modified>2023-10-31T09:50:59.627</Modified>
+      <Modified>2023-10-31T12:05:28.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad08_Ejercicio01\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio01.deps.json">
       <PackagePath>Ejercicio01.deps.json</PackagePath>
