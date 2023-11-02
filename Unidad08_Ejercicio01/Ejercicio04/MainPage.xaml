@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio04.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30"
+            Spacing="20"
+            VerticalOptions="Start">
+
+            <Border Stroke="Black" StrokeThickness="2" Padding="10">
+                <Label>T10MinimalApp2 Project | Main Page</Label>
+            </Border>
+
+            <Border Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10">
+                <Label>Building a responsive UI is actually not that hard when you use XAML in Visual Studio. Using static content can help to ensure that the UI responds appropriately to changing window sizes</Label>
+            </Border>
+
+            <Border Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10" VerticalOptions="StartAndExpand">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <FlexLayout
+                        Grid.Column="0"
+                        HorizontalOptions="StartAndExpand"
+                        Wrap="Wrap">
+                        <Border Margin="0, 0 , 5, 0" Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10" WidthRequest="100" HeightRequest="100">
+                            <Label>Image 1</Label>
+                        </Border>
+                        <Border Margin="0, 0 , 5, 0" Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10" WidthRequest="100" HeightRequest="100">
+                            <Label>Image 1</Label>
+                        </Border>
+                        <Border Margin="0, 0 , 5, 0" Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10" WidthRequest="100" HeightRequest="100">
+                            <Label>Image 1</Label>
+                        </Border>
+                    </FlexLayout>
+                    <VerticalStackLayout
+                        Grid.Column="1"
+                        Spacing="20"
+                        Padding="10">
+                        <Border Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10">
+                            <Label>This is my first TestBlock. It contains the same basic text as others</Label>
+                        </Border>
+                        <Border Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10">
+                            <Label>This is my first TestBlock. It contains the same basic text as others</Label>
+                        </Border>
+                        <Border Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10">
+                            <Label>This is my first TestBlock. It contains the same basic text as others</Label>
+                        </Border>
+                    </VerticalStackLayout>
+                </Grid>
+            </Border>
+
+            <Border Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10">
+                <Label>This is my first TestBlock. It contains the same basic text as others</Label>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

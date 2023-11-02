@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad08_Ejercicio01\Ejercicio01\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-31T12:05:29.736</Modified>
+      <Modified>2023-11-02T11:31:23.783</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
