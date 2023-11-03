@@ -33,6 +33,7 @@
                         <Border Margin="0, 0 , 5, 0" Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10" WidthRequest="100" HeightRequest="100">
                             <Label>Image 1</Label>
                         </Border>
+                        
                         <Border Margin="0, 0 , 5, 0" Stroke="Black" StrokeShape="RoundRectangle 0" StrokeThickness="2" Padding="10" WidthRequest="100" HeightRequest="100">
                             <Label>Image 1</Label>
                         </Border>
