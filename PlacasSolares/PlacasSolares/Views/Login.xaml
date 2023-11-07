@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlacasSolares.Views.Login"
+             Title="Login">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="65*"/>
+            <!-- El 70% del espacio vertical -->
+            <ColumnDefinition Width="35*"/>
+            <!-- El 30% del espacio vertical -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Parte superior (70%) con fondo azul -->
+        <Frame Grid.Column="0">
+            <Frame.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="Blue" Offset="0.1"/>
+                    <GradientStop Color="White" Offset="1.0"/>
+                </LinearGradientBrush>
+            </Frame.Background>
+        </Frame>
+
+        <!-- Parte inferior (30%) con fondo blanco -->
+        <BoxView Grid.Row="1" BackgroundColor="White"/>
+    </Grid>
+</ContentPage>
