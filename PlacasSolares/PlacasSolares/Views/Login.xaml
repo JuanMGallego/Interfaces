@@ -5,23 +5,23 @@
              Title="Login">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition Width="70*"/>
             <!-- El 70% del espacio vertical -->
-            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="30*"/>
             <!-- El 30% del espacio vertical -->
         </Grid.ColumnDefinitions>
 
         <!-- Parte superior (70%) con fondo azul -->
-        <Frame Grid.Column="0">
-            <Frame.Background>
+        <StackLayout Grid.Column="0">
+            <StackLayout.Background>
                 <LinearGradientBrush>
-                    <GradientStop Color="Blue" Offset="0.1"/>
-                    <GradientStop Color="White" Offset="1.0"/>
+                    <GradientStop Color="#1A8EFF" Offset="0.1"/>
+                    <GradientStop Color="#1A1BFF" Offset="1.0"/>
                 </LinearGradientBrush>
-            </Frame.Background>
-        </Frame>
+            </StackLayout.Background>
+        </StackLayout>
 
         <!-- Parte inferior (30%) con fondo blanco -->
-        <BoxView Grid.Row="1" BackgroundColor="White"/>
+        <BoxView Grid.Column="1" Color="White"/>
     </Grid>
 </ContentPage>
