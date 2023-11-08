@@ -5,9 +5,9 @@
              Title="Login">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="63*"/>
             <!-- El 70% del espacio vertical -->
-            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="37*"/>
             <!-- El 30% del espacio vertical -->
         </Grid.ColumnDefinitions>
 
@@ -15,13 +15,58 @@
         <StackLayout Grid.Column="0">
             <StackLayout.Background>
                 <LinearGradientBrush>
-                    <GradientStop Color="#1A8EFF" Offset="0.1"/>
-                    <GradientStop Color="#1A1BFF" Offset="1.0"/>
+                    <GradientStop Color="#0575E6" Offset="0.1"/>
+                    <GradientStop Color="#02298A" Offset="1.0"/>
                 </LinearGradientBrush>
             </StackLayout.Background>
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Label FontSize="45" FontFamily="Ginebra" FontAttributes="Bold">Solar Panel Company</Label >
+                <Label FontFamily="Ginebra">Descripción</Label>
+            </StackLayout>
         </StackLayout>
+        
+            <!-- Parte inferior (30%) con fondo blanco -->
+        <StackLayout Grid.Column="1" BackgroundColor="White">
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                
+                <Label FontSize="20" FontFamily="Ginebra" FontAttributes="Bold" TextColor="Black">Bienvenido!</Label>
+                <Label FontFamily="Ginebra" TextColor="Black" Margin="0,10,0,0">Descripción</Label>
+                
+                <Border Stroke="Gray" StrokeThickness="0.5" Margin="0,30,0,0" WidthRequest="300">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="45,45,45,45" />
+                    </Border.StrokeShape>
+                    
+                    <HorizontalStackLayout>
+                        <Image Source="email_icon.png" Opacity="0.4" WidthRequest="30" HeightRequest="30" Margin="10, 10, 0, 10"></Image>
+                        <Entry Placeholder="Correo Electrónico" FontSize="13" TextColor="Black"/>
+                    </HorizontalStackLayout>
+                    
+                </Border>
+                
+                <Border Stroke="Gray" StrokeThickness="0.5" Margin="0,15,0,0" WidthRequest="300">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="45,45,45,45" />
+                    </Border.StrokeShape>
+                    
+                    <HorizontalStackLayout>
+                        <Image Source="padlock.png" Opacity="0.4" WidthRequest="20" HeightRequest="20" Margin="17, 15, 3, 15"></Image>
+                        <Entry Placeholder="Contraseña" FontSize="13" TextColor="Black" IsPassword="True"/>
+                    </HorizontalStackLayout>
+                    
+                </Border>
 
-        <!-- Parte inferior (30%) con fondo blanco -->
-        <BoxView Grid.Column="1" Color="White"/>
+                <Border StrokeThickness="0" Margin="0,15,0,0" WidthRequest="300">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="45,45,45,45" />
+                    </Border.StrokeShape>
+
+                    <Button Text="Login" TextColor="White" BackgroundColor="#0575E6" HeightRequest="60"></Button>
+
+                </Border>
+
+                <Label TextColor="Gray" HorizontalOptions="Center" Margin="0, 10, 0, 0">Forgot Password?</Label>
+            </StackLayout>
+        </StackLayout>
     </Grid>
 </ContentPage>
