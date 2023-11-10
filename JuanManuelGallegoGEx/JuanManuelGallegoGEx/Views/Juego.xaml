@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JuanManuelGallegoGEx.Views.Juego"
+             Title="Juego">
+    <VerticalStackLayout>
+        <Label FontSize="Title" FontAttributes="Bold" FontFamily="Ginebra"  HorizontalOptions="Center" VerticalOptions="Center" Margin="0, 30, 0, 10">Encuentra las 3 diferencias</Label>
+        <FlexLayout Grid.Column="0" HorizontalOptions="CenterAndExpand" Wrap="Wrap">
+            <AbsoluteLayout  Margin="20, 10, 20, 0">
+                <Image Source="imagen1.jpg" MinimumWidthRequest="300" MinimumHeightRequest="300">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Image" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Button BackgroundColor="Black" TranslationX="10" TranslationY="100" Text="Pis" Opacity="0" Clicked="Pista1_Clicked"/>
+                <Button BackgroundColor="Black" TranslationX="110" TranslationY="240" Text="" Opacity="0" Clicked="Pista2_Clicked"/>
+                <Button BackgroundColor="Black" TranslationX="207" TranslationY="100" Text="" Opacity="0" Clicked="Pista3_Clicked"/>
+                <Border x:Name="circulo1I" StrokeThickness="3" Stroke="Red" StrokeShape="RoundRectangle 45" Padding="25" TranslationX="10" TranslationY="100" Opacity="0"></Border>
+                <Border x:Name="circulo2I" StrokeThickness="3" Stroke="Red" StrokeShape="RoundRectangle 45" Padding="25" TranslationX="110" TranslationY="240" Opacity="0"></Border>
+                <Border x:Name="circulo3I" StrokeThickness="3" Stroke="Red" StrokeShape="RoundRectangle 45" Padding="25" TranslationX="207" TranslationY="100" Opacity="0"></Border>
+            </AbsoluteLayout>
+            <AbsoluteLayout Margin="20, 10, 20, 0">
+                <Image Source="imagen2.jpg" MinimumWidthRequest="300" MinimumHeightRequest="300">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Image" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Button BackgroundColor="Black" TranslationX="10" TranslationY="100" Text="Pis" Opacity="0" Clicked="Pista1_Clicked"/>
+                <Button BackgroundColor="Black" TranslationX="110" TranslationY="240" Text="" Opacity="0" Clicked="Pista2_Clicked"/>
+                <Button BackgroundColor="Black" TranslationX="207" TranslationY="100" Text="" Opacity="0" Clicked="Pista3_Clicked"/>
+                <Border x:Name="circulo1R" StrokeThickness="3" Stroke="Red" StrokeShape="RoundRectangle 45" Padding="25" TranslationX="10" TranslationY="100" Opacity="0"></Border>
+                <Border x:Name="circulo2R" StrokeThickness="3" Stroke="Red" StrokeShape="RoundRectangle 45" Padding="25" TranslationX="110" TranslationY="240" Opacity="0"></Border>
+                <Border x:Name="circulo3R" StrokeThickness="3" Stroke="Red" StrokeShape="RoundRectangle 45" Padding="25" TranslationX="207" TranslationY="100" Opacity="0"></Border>
+            </AbsoluteLayout>
+        </FlexLayout>
+        <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+            <Label x:Name="puntuacionTxt" FontSize="Medium" FontAttributes="Bold" TextColor="Green" Text="Puntuación: 0" Margin="20"></Label>
+            <Label x:Name="erroresTxt" FontSize="Medium" FontAttributes="Bold" TextColor="Red" Text="Errores: 0" Margin="20"></Label>
+        </HorizontalStackLayout>
+        <VerticalStackLayout x:Name="resultadoTxt" HorizontalOptions="CenterAndExpand" Opacity="0">
+            <Label x:Name="ganaTxt" FontSize="Medium" FontAttributes="Bold" Margin="5"></Label>
+            <Label FontSize="Default" FontAttributes="Bold"  Margin="5">Quieres Jugar otra vez?</Label>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Button Text="No" Margin="5" Clicked="No_Clicked"></Button>
+                <Button Text="Si" Margin="5" Clicked="Si_Clicked"></Button>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

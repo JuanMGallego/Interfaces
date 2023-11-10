@@ -1,1 +1,1 @@
-C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\PlacasSolares.csproj;x64
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\PlacasSolares.csproj;x64

@@ -20,8 +20,8 @@
                 </LinearGradientBrush>
             </StackLayout.Background>
             <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-                <Label FontSize="45" FontFamily="Ginebra" FontAttributes="Bold">Solar Panel Company</Label >
-                <Label FontFamily="Ginebra">Descripción</Label>
+                <Label FontSize="45" FontFamily="Ginebra" FontAttributes="Bold" TextColor="White">Solar Panel Company</Label >
+                <Label FontFamily="Ginebra" TextColor="White">Descripción</Label>
             </StackLayout>
         </StackLayout>
         
@@ -34,34 +34,34 @@
                 
                 <Border Stroke="Gray" StrokeThickness="0.5" Margin="0,30,0,0" WidthRequest="300">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="45,45,45,45" />
+                        <RoundRectangle CornerRadius="45" />
                     </Border.StrokeShape>
                     
                     <HorizontalStackLayout>
-                        <Image Source="email_icon.png" Opacity="0.4" WidthRequest="30" HeightRequest="30" Margin="10, 10, 0, 10"></Image>
-                        <Entry Placeholder="Correo Electrónico" FontSize="13" TextColor="Black"/>
+                        <Image Source="email_icon.png" Opacity="0.4" WidthRequest="30" HeightRequest="30" Margin="10, 10, 0, 10"/>
+                        <Entry Placeholder="Correo Electrónico" FontSize="13" TextColor="Black" WidthRequest="235"/>
                     </HorizontalStackLayout>
                     
                 </Border>
                 
                 <Border Stroke="Gray" StrokeThickness="0.5" Margin="0,15,0,0" WidthRequest="300">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="45,45,45,45" />
+                        <RoundRectangle CornerRadius="45" />
                     </Border.StrokeShape>
                     
                     <HorizontalStackLayout>
-                        <Image Source="padlock.png" Opacity="0.4" WidthRequest="20" HeightRequest="20" Margin="17, 15, 3, 15"></Image>
-                        <Entry Placeholder="Contraseña" FontSize="13" TextColor="Black" IsPassword="True"/>
+                        <Image Source="padlock.png" Opacity="0.4" WidthRequest="20" HeightRequest="20" Margin="17, 15, 3, 15"/>
+                        <Entry Placeholder="Contraseña" FontSize="13" TextColor="Black" IsPassword="True" WidthRequest="235"/>
                     </HorizontalStackLayout>
                     
                 </Border>
 
                 <Border StrokeThickness="0" Margin="0,15,0,0" WidthRequest="300">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="45,45,45,45" />
+                        <RoundRectangle CornerRadius="45" />
                     </Border.StrokeShape>
 
-                    <Button Text="Login" TextColor="White" BackgroundColor="#0575E6" HeightRequest="60"></Button>
+                    <Button Text="Login" TextColor="White" BackgroundColor="#0575E6" HeightRequest="53" Clicked="onClick"></Button>
 
                 </Border>
 

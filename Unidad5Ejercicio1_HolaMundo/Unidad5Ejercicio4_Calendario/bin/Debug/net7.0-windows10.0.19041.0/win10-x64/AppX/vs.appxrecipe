@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad5Ejercicio1_HolaMundo\Unidad5Ejercicio4_Calendario\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-27T08:03:39.962</Modified>
+      <Modified>2023-11-10T07:54:03.309</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad5Ejercicio1_HolaMundo\Unidad5Ejercicio4_Calendario\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Unidad5Ejercicio4_Calendario.dll">
       <PackagePath>Unidad5Ejercicio4_Calendario.dll</PackagePath>
-      <Modified>2023-10-27T08:03:39.002</Modified>
+      <Modified>2023-11-10T07:54:02.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad5Ejercicio1_HolaMundo\Unidad5Ejercicio4_Calendario\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Unidad5Ejercicio4_Calendario.exe</PackagePath>
-      <Modified>2023-10-27T08:03:39.014</Modified>
+      <Modified>2023-11-10T07:54:02.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad5Ejercicio1_HolaMundo\Unidad5Ejercicio4_Calendario\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Unidad5Ejercicio4_Calendario.deps.json">
       <PackagePath>Unidad5Ejercicio4_Calendario.deps.json</PackagePath>
