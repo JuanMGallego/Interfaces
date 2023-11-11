@@ -49,9 +49,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\calendar_icon.png" />
 	  <None Remove="Resources\Images\email_icon.png" />
 	  <None Remove="Resources\Images\fondo.jpg" />
+	  <None Remove="Resources\Images\notification_icon.png" />
 	  <None Remove="Resources\Images\padlock.png" />
+	  <None Remove="Resources\Images\search_icon.png" />
+	  <None Remove="Resources\Images\tasks_icon.png" />
+	  <None Remove="Resources\Images\user_icon.png" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -8,51 +8,51 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PlacasSolares
-build_property.ProjectDir = C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\
+build_property.ProjectDir = C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/App.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/AppShell.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/MainPage.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Resources/Styles/Colors.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Resources/Styles/Styles.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/FlayoutGestion.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/FlayoutGestion.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Views.FlayoutGestion.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\FlayoutGestion.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\FlayoutGestion.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/Gestion.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/Gestion.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Views.Gestion.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Gestion.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Gestion.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/Login.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/PlacasSolares/PlacasSolares/Views/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PlacasSolares.Views.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml

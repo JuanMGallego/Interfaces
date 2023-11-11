@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Unidad5Ejercicio1_HolaMundo
-build_property.ProjectDir = C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad5Ejercicio1_HolaMundo\Unidad5Ejercicio1_HolaMundo\
+build_property.ProjectDir = C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad5Ejercicio1_HolaMundo\Unidad5Ejercicio1_HolaMundo\
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad5Ejercicio1_HolaMundo/Unidad5Ejercicio1_HolaMundo/App.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/Unidad5Ejercicio1_HolaMundo/Unidad5Ejercicio1_HolaMundo/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad5Ejercicio1_HolaMundo.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad5Ejercicio1_HolaMundo/Unidad5Ejercicio1_HolaMundo/AppShell.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/Unidad5Ejercicio1_HolaMundo/Unidad5Ejercicio1_HolaMundo/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad5Ejercicio1_HolaMundo.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad5Ejercicio1_HolaMundo/Unidad5Ejercicio1_HolaMundo/MainPage.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/Unidad5Ejercicio1_HolaMundo/Unidad5Ejercicio1_HolaMundo/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad5Ejercicio1_HolaMundo.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad5Ejercicio1_HolaMundo/Unidad5Ejercicio1_HolaMundo/Resources/Styles/Colors.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/Unidad5Ejercicio1_HolaMundo/Unidad5Ejercicio1_HolaMundo/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad5Ejercicio1_HolaMundo.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad5Ejercicio1_HolaMundo/Unidad5Ejercicio1_HolaMundo/Resources/Styles/Styles.xaml]
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/Unidad5Ejercicio1_HolaMundo/Unidad5Ejercicio1_HolaMundo/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad5Ejercicio1_HolaMundo.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
