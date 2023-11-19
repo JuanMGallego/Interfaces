@@ -51,12 +51,16 @@
 	<ItemGroup>
 	  <None Remove="Resources\Images\calendar_icon.png" />
 	  <None Remove="Resources\Images\email_icon.png" />
+	  <None Remove="Resources\Images\enterprise_icon.jpg" />
 	  <None Remove="Resources\Images\fondo.jpg" />
 	  <None Remove="Resources\Images\notification_icon.png" />
 	  <None Remove="Resources\Images\padlock.png" />
+	  <None Remove="Resources\Images\photo_icon.png" />
 	  <None Remove="Resources\Images\search_icon.png" />
 	  <None Remove="Resources\Images\tasks_icon.png" />
+	  <None Remove="Resources\Images\ubication_icon.png" />
 	  <None Remove="Resources\Images\user_icon.png" />
+	  <None Remove="Resources\Images\write_icon.png" />
 	</ItemGroup>
 
 	<ItemGroup>
