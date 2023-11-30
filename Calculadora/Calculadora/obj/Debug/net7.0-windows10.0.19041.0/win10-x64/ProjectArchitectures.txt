@@ -1,0 +1,1 @@
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Calculadora\Calculadora\Calculadora.csproj;x64

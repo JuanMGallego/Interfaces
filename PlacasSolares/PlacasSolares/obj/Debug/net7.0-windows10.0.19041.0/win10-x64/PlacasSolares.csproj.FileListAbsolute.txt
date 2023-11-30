@@ -662,3 +662,13 @@ C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\o
 C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\write_icon.scale-100.png
 C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photo_icon.scale-100.png
 C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\enterprise_icon.scale-100.jpg
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\archive_icon.scale-100.png
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendar_icon.scale-100.png
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\enterprise_icon.scale-100.jpg
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification_icon.scale-100.png
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\photo_icon.scale-100.png
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-100.png
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tasks_icon.scale-100.png
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ubication_icon.scale-100.png
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\user_icon.scale-100.png
+C:\Users\jmgallego\Documents\GitHub\Interfaces\PlacasSolares\PlacasSolares\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\write_icon.scale-100.png
