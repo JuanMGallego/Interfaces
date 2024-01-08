@@ -1,0 +1,11 @@
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\bin\Debug\net7.0\BL.deps.json
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\bin\Debug\net7.0\BL.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\bin\Debug\net7.0\BL.pdb
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\obj\Debug\net7.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\obj\Debug\net7.0\BL.AssemblyInfoInputs.cache
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\obj\Debug\net7.0\BL.AssemblyInfo.cs
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\obj\Debug\net7.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\obj\Debug\net7.0\BL.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\obj\Debug\net7.0\refint\BL.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\obj\Debug\net7.0\BL.pdb
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\obj\Debug\net7.0\ref\BL.dll

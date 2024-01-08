@@ -1,0 +1,11 @@
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\bin\Debug\net7.0\DAL.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\bin\Debug\net7.0\DAL.pdb
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\DAL.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\DAL.pdb
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\ref\DAL.dll
