@@ -1,0 +1,102 @@
+CAPA ENTIDADES
+
+	clsPersonas //Con sus atributos y constructores
+
+	clsDepartamentos //Con sus atributos y constructores
+
+
+CAPA DAL
+
+	ListadosDAL
+
+		clsListadoPersonasDAL
+
+			List<clsPersona>ListadoCompletoPersonasDAL()	
+
+		clsListadoDepartamentosDAL
+			
+			List<clsDepartamento>ListadoCompletoDepartamentosDAL()
+
+	ManejadorasBL
+
+		clsManejadoraPersonasDAL
+
+			int borrarPersonaDAL(int idPersona)
+			clsPersona insertarPersonaDAL
+			clsPersona editarPersonaDAL
+			
+
+		clsManejadoraDepartamentsosDAL
+			
+			int borrarDepartamentoDAL(int idDepartamento)
+			clsDepartamento insertarDepartamentoDAL
+			clsDepartamento editarDepartamentoDAL
+
+	clsConnection //Conexión con la api
+
+
+CAPA BL
+	
+	ListadosBL
+
+		clsListadoPersonasBL
+
+			List<clsPersona>ListadoCompletoPersonasBL()
+
+		clsListadoDepartamentosBL
+			
+			List<clsDepartamento>ListadoCompletoDepartamentosBL()
+
+	ManejadorasBL
+
+		clsManejadoraPersonasBL
+
+			int borrarPersonaBL(int idPersona)//los domingos no se puede eliminar a nadie
+		
+			clsPersona insertarPersonaBL
+
+			clsPersona editarPersonaBL
+		
+
+
+		clsManejadoraDepartamentsosBL
+
+			int borrarDepartamento(int idDepartamento)
+
+			clsDepartamento insertarDepartamentoBL
+
+			clsDepartamento editarDepartamentoBL
+					
+
+CAPA UI
+
+	ViewModels
+
+		ListadoPersonasVM
+
+		ListadoDepartamentosVM
+
+		EditarInsertarPersonaVM
+
+		EditarInsertarDepartamentoVM
+
+		Utils
+
+			clsVMBase
+
+			DelegateCommand
+	
+
+	Views
+
+		MainPage
+
+		ListadoPersonasPage
+
+		EditarInsertarPersonasPage
+
+		ListadoDepartamentosPage
+
+		EditarInsertarDepartamentoPage
+
+		AppShell
