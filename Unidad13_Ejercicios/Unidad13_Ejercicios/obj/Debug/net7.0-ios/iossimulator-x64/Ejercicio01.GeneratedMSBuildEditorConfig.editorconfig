@@ -8,39 +8,39 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Unidad13_Ejercicios
-build_property.ProjectDir = C:\Users\jmgallego\Documents\GitHub\Sistemas-de-Gestion\Unidad13_Ejercicios\Unidad13_Ejercicios\
+build_property.ProjectDir = C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad13_Ejercicios\Unidad13_Ejercicios\
 
-[C:/Users/jmgallego/Documents/GitHub/Sistemas-de-Gestion/Unidad13_Ejercicios/Unidad13_Ejercicios/App.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad13_Ejercicios/Unidad13_Ejercicios/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad13_Ejercicios.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Sistemas-de-Gestion/Unidad13_Ejercicios/Unidad13_Ejercicios/AppShell.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad13_Ejercicios/Unidad13_Ejercicios/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad13_Ejercicios.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Sistemas-de-Gestion/Unidad13_Ejercicios/Unidad13_Ejercicios/MainPage.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad13_Ejercicios/Unidad13_Ejercicios/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad13_Ejercicios.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Sistemas-de-Gestion/Unidad13_Ejercicios/Unidad13_Ejercicios/Resources/Gradiante1.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad13_Ejercicios/Unidad13_Ejercicios/Resources/Gradiante1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad13_Ejercicios.Resources.Gradiante1.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Gradiante1.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Gradiante1.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Sistemas-de-Gestion/Unidad13_Ejercicios/Unidad13_Ejercicios/Resources/Styles/Colors.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad13_Ejercicios/Unidad13_Ejercicios/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad13_Ejercicios.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jmgallego/Documents/GitHub/Sistemas-de-Gestion/Unidad13_Ejercicios/Unidad13_Ejercicios/Resources/Styles/Styles.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/Unidad13_Ejercicios/Unidad13_Ejercicios/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Unidad13_Ejercicios.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

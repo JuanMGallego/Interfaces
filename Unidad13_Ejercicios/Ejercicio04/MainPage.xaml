@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio04.MainPage">
+
+    <ContentPage.Resources>
+        <Style TargetType="Button" x:Key="CustomButtonStyle">
+
+            <Setter Property="BackgroundColor" Value="Aqua"/>
+
+            <Setter Property="FontFamily" Value="Comic Sans MS" />
+
+            <Setter Property="Padding" Value="10" />
+
+            <Setter Property="Margin" Value="20" />
+
+        </Style>
+
+        <Style BasedOn="{StaticResource CustomButtonStyle}" TargetType="Button" x:Key="BasedButtonStyle">
+
+            <Setter Property="TextColor" Value="Green"/>
+
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button Style="{StaticResource CustomButtonStyle}" Text="Boton 1"></Button>
+            <Button Style="{StaticResource CustomButtonStyle}" Text="Boton 2"></Button>
+            <Button Style="{StaticResource BasedButtonStyle}" Text="Boton 3"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
