@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vy8JFlg+t4nzfezJMkXEJLFdWumFWTXgFc92ggkCDzvgVHS/Fh4nK4m+mMd79gAOYZkwnaBrGsGAL59EsZBnNw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\PrácticaMAUI\\DAL\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmgallego\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

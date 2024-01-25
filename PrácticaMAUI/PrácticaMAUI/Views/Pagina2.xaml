@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:PrácticaMAUI.ViewModels"
+             x:Class="PrácticaMAUI.Views.Pagina2"
+             Title="Pagina2">
+    <ContentPage.BindingContext>
+        <models:Pagina2VM></models:Pagina2VM>
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <ListView x:Name="" ItemsSource="{Binding DepartamentosList}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <HorizontalStackLayout HorizontalOptions="Center">
+
+                        <Label Text="{Binding nombre}"/>
+                        <Label Text="{Binding ID}"/>
+
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

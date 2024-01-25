@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:UI.ViewModels"
+             x:Class="UI.Views.ListadoPersonasPage"
+             Title="ListadoPersonasPage">
+    <ContentPage.BindingContext>
+        <models:clsListadoPersonasVM/>
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <ListView>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout>
+                            <Label
+                                Text="{Binding NombrePersona}"
+                                FontSize="Medium"/>
+                            <Label
+                                Text="{Binding ApellidosPersona}"
+                                FontSize="Medium"/>
+                        </HorizontalStackLayout>
+                        <!--Desplegable con la lista de departamentos-->
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button
+            Text="Comprobar"/>
+        <!--Comando dentro del botón para comprobar que los departamentos seleccionados son los correctos-->
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrácticaMAUI.Views.Pagina"
+             xmlns:models="clr-namespace:PrácticaMAUI.ViewModels"
+             Title="Pagina">
+    
+    <ContentPage.BindingContext>
+        <models:PaginaVM/>
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Slider para cambiar fuentes:"></Label>
+        <Slider Maximum="40" Minimum="11" x:Name="slid"></Slider>
+        <Label Text="INTRODUCE EL NOMBRE" BindingContext="{x:Reference slid}" FontSize="{Binding Path=Value}"></Label>
+        <Entry MaximumWidthRequest="200" Text="{Binding Nombre}"></Entry>
+        <Label Text="INTRODUCE LOS APELLIDOS" BindingContext="{x:Reference slid}" FontSize="{Binding Path=Value}"></Label>
+        <Entry MaximumWidthRequest="200" Text="{Binding Apellido}"></Entry>
+        <Label Text=""></Label>
+        <Label MaximumWidthRequest="400" Text= "{Binding NombreCompleto}"></Label>
+        <Button Command="{Binding Sumar}" Text="{Binding BotonNum}"></Button>
+        <Button Text="Página 2" Clicked="IrAPagina2"/>
+    </VerticalStackLayout>
+</ContentPage>
