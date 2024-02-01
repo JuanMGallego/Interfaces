@@ -8,33 +8,33 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UI
-build_property.ProjectDir = C:\Users\jmgallego\Desktop\API\API\ExDI\UI\
+build_property.ProjectDir = C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\
 
-[C:/Users/jmgallego/Desktop/API/API/ExDI/UI/App.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/ExDI/UI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jmgallego/Desktop/API/API/ExDI/UI/AppShell.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/ExDI/UI/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jmgallego/Desktop/API/API/ExDI/UI/Resources/Styles/Colors.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/ExDI/UI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jmgallego/Desktop/API/API/ExDI/UI/Resources/Styles/Styles.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/ExDI/UI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/jmgallego/Desktop/API/API/ExDI/UI/Views/ListadoPersonasPage.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/ExDI/UI/Views/ListadoPersonasPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.Views.ListadoPersonasPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListadoPersonasPage.xaml

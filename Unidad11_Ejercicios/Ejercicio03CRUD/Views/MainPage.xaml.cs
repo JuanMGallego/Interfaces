@@ -1,21 +1,20 @@
-﻿namespace Ejercicio03CRUD
-{
-    public partial class MainPage : ContentPage
-    { 
+﻿namespace Ejercicio03CRUD.Views;
 
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+public partial class MainPage : ContentPage
+{ 
 
-        private void NavegarAListadoPersonas(object sender, EventArgs e)
-        {
-            Shell.Current.GoToAsync("//ListadoPersonasPage");
-        }
+    public MainPage()
+    {
+        InitializeComponent();
+    }
 
-        private void NavegarAListadoDepartamentos(object sender, EventArgs e)
-        {
-            Shell.Current.GoToAsync("//ListadoDepartamentosPage");
-        }
+    private void NavegarAListadoPersonas(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("ListadoPersonasPage");
+    }
+
+    private void NavegarAListadoDepartamentos(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("ListadoDepartamentosPage");
     }
 }

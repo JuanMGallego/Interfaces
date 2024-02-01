@@ -25,3 +25,7 @@ C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\D
 C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\refint\DAL.dll
 C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\DAL.pdb
 C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\bin\Debug\net7.0\Entidades.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\bin\Debug\net7.0\Entidades.pdb
+C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete

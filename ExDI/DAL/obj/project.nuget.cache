@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RRDQ38sx3u4F2enjNAvRFxtikniZ2L8BOVGZ8hLYe0f0jcOohwVzcEFhAikpBO8tpOxu7TGyzJE878AeIWfC1A==",
+  "dgSpecHash": "xdbkDGs6qr34ee8aC8nVYJsthDG3yQoisDEJIy7t4yk6gmguWIRtv3lz52N8lS0tvMCy1cJYivr8y3Gcd4Cgqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\DAL\\DAL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

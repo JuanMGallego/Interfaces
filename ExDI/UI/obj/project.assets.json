@@ -24807,11 +24807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\UI\\UI.csproj",
+      "projectPath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\jmgallego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\UI\\obj\\",
+      "outputPath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -24837,32 +24837,32 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
-            "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\Entidades\\Entidades.csproj"
+            "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\Entidades\\Entidades.csproj"
             }
           }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "projectReferences": {
-            "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\Entidades\\Entidades.csproj"
+            "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\Entidades\\Entidades.csproj"
             }
           }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\Entidades\\Entidades.csproj"
+            "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\Entidades\\Entidades.csproj"
             }
           }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\jmgallego\\Desktop\\API\\API\\ExDI\\Entidades\\Entidades.csproj"
+            "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\ExDI\\Entidades\\Entidades.csproj"
             }
           }
         }
