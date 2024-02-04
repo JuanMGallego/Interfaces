@@ -10,10 +10,10 @@
     <ContentPage.BindingContext>
         <models:MainVM />
     </ContentPage.BindingContext>
-    
-    <StackLayout>
-        <Label Text="CRUD | JMGG" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
-        <Button Text="Entrar" HorizontalOptions="FillAndExpand" Command="{Binding ChangePageCommand}"></Button>
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="CRUD | JMGG" FontSize="20" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="20"/>
+        <Button Text="Entrar" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Command="{Binding ChangePageCommand}"/>
     </StackLayout>
 
 </ContentPage>

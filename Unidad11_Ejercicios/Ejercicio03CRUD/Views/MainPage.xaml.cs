@@ -7,14 +7,4 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
     }
-
-    private void NavegarAListadoPersonas(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync("ListadoPersonasPage");
-    }
-
-    private void NavegarAListadoDepartamentos(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync("ListadoDepartamentosPage");
-    }
 }

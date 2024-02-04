@@ -2,7 +2,7 @@
 
 namespace Ejercicio03CRUD.ViewModels
 {
-    internal class MainVM
+    public class MainVM
     {
         public ICommand ChangePageCommand { get; }
 
@@ -13,7 +13,7 @@ namespace Ejercicio03CRUD.ViewModels
 
         private async void ChangePage()
         {
-            await Shell.Current.GoToAsync("ListadoPersonasPage");
+            await Shell.Current.GoToAsync("//personas");
         }
 
     }

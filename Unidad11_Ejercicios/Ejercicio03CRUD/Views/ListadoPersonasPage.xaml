@@ -5,6 +5,6 @@
     <VerticalStackLayout>
         <ListView ItemsSource="{Binding Personas}">
             
-        </ListView>
+        </ListView >
     </VerticalStackLayout>
 </ContentView>

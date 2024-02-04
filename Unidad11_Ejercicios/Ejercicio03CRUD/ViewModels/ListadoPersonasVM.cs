@@ -8,5 +8,8 @@ namespace Ejercicio03CRUD.ViewModels
 {
     class ListadoPersonasVM
     {
+
+
+
     }
 }
