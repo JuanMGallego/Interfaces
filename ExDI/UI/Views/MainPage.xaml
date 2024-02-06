@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.Views.MainPage"
+             xmlns:viewModels="clr-namespace:UI.ViewModels">
+
+    <ContentPage.BindingContext>
+        <viewModels:clsListadoPersonasVM/>
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout>
+        <Label Text="Prueba"/>
+        <ListView ItemsSource="{Binding Personas}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10">
+                            <Label Text="{Binding Nombre}" FontAttributes="Bold" />
+                            <Label Text="{Binding Apellidos}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+
+</ContentPage>

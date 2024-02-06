@@ -16,7 +16,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.ui</ApplicationId>
-		<ApplicationIdGuid>faf314c6-726f-46e7-a06b-229758cffd08</ApplicationIdGuid>
+		<ApplicationIdGuid>79230b81-ef8a-4ee0-98b0-1c0b4ef74cd1</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -55,18 +55,6 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\Entidades\Entidades.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Compile Update="Views\ListadoPersonasPage.xaml.cs">
-	    <DependentUpon>%(Filename)</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Views\ListadoPersonasPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

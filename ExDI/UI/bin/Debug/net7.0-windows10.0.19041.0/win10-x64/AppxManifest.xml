@@ -7,8 +7,8 @@
 
     Para obtener más información acerca de los archivos de manifiesto del paquete, vea http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="faf314c6-726f-46e7-a06b-229758cffd08" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
-  <mp:PhoneIdentity PhoneProductId="3A1024E3-636F-4653-9084-27FD4FE5CBCC" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="79230b81-ef8a-4ee0-98b0-1c0b4ef74cd1" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="74E24ED5-445D-4AE9-B8E8-BBE3C2C8B12C" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>UI</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>

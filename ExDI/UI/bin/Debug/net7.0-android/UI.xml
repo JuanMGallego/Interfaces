@@ -4,27 +4,12 @@
         <name>UI</name>
     </assembly>
     <members>
-        <member name="T:UI.DAL.clsMyConexion">
+        <member name="T:UI.DAL.Conexion.clsMyConexion">
             <summary>
             Clase para tener la conexión con la API
             </summary>
         </member>
-        <member name="T:UI.DAL.ListadosDAL.clsListadoDepartamentosDAL">
-            <summary>
-            Clase para hacer las peticiones y parsear los datos. Al tenerlos se enlaza con el ViewModel.
-            </summary>
-        </member>
-        <member name="T:UI.DAL.ListadosDAL.clsListadoPersonasDAL">
-            <summary>
-            Clase para hacer las peticiones y parsear los datos. Al tenerlos se enlaza con el ViewModel.
-            </summary>
-        </member>
-        <member name="T:UI.ViewModels.clsListadoPersonasVM">
-            <summary>
-            Clase para utilizar los datos proporcionados por la DAL, bindearlos y hacer comandos para usarlos en la vista.
-            </summary>
-        </member>
-        <member name="M:PrácticaMAUI.ViewModels.utils.DelegateCommand.#ctor(System.Action,System.Boolean)">
+        <member name="M:Ejercicio03CRUD.ViewModels.Utilis.DelegateCommand.#ctor(System.Action)">
             <summary>
             Initializes a new instance of the RelayCommand class that 
             can always execute.
@@ -32,7 +17,7 @@
             <param name="execute">The execution logic.</param>
             <exception cref="T:System.ArgumentNullException">If the execute argument is null.</exception>
         </member>
-        <member name="M:PrácticaMAUI.ViewModels.utils.DelegateCommand.#ctor(System.Action,System.Func{System.Boolean})">
+        <member name="M:Ejercicio03CRUD.ViewModels.Utilis.DelegateCommand.#ctor(System.Action,System.Func{System.Boolean})">
             <summary>
             Initializes a new instance of the RelayCommand class.
             </summary>
@@ -40,24 +25,24 @@
             <param name="canExecute">The execution status logic.</param>
             <exception cref="T:System.ArgumentNullException">If the execute argument is null.</exception>
         </member>
-        <member name="E:PrácticaMAUI.ViewModels.utils.DelegateCommand.CanExecuteChanged">
+        <member name="E:Ejercicio03CRUD.ViewModels.Utilis.DelegateCommand.CanExecuteChanged">
             <summary>
             Occurs when changes occur that affect whether the command should execute.
             </summary>
         </member>
-        <member name="M:PrácticaMAUI.ViewModels.utils.DelegateCommand.RaiseCanExecuteChanged">
+        <member name="M:Ejercicio03CRUD.ViewModels.Utilis.DelegateCommand.RaiseCanExecuteChanged">
             <summary>
-            Raises the <see cref="E:PrácticaMAUI.ViewModels.utils.DelegateCommand.CanExecuteChanged" /> event.
+            Raises the <see cref="E:Ejercicio03CRUD.ViewModels.Utilis.DelegateCommand.CanExecuteChanged" /> event.
             </summary>
         </member>
-        <member name="M:PrácticaMAUI.ViewModels.utils.DelegateCommand.CanExecute(System.Object)">
+        <member name="M:Ejercicio03CRUD.ViewModels.Utilis.DelegateCommand.CanExecute(System.Object)">
             <summary>
             Defines the method that determines whether the command can execute in its current state.
             </summary>
             <param name="parameter">This parameter will always be ignored.</param>
             <returns>true if this command can be executed; otherwise, false.</returns>
         </member>
-        <member name="M:PrácticaMAUI.ViewModels.utils.DelegateCommand.Execute(System.Object)">
+        <member name="M:Ejercicio03CRUD.ViewModels.Utilis.DelegateCommand.Execute(System.Object)">
             <summary>
             Defines the method to be called when the command is invoked. 
             </summary>

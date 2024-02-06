@@ -8,50 +8,50 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
-    <PackageIdentityName>faf314c6-726f-46e7-a06b-229758cffd08</PackageIdentityName>
+    <PackageIdentityName>79230b81-ef8a-4ee0-98b0-1c0b4ef74cd1</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\jmgallego\Desktop\API\API\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>25536A2BCCAA70C4E7C1BAF039D3431E4C20C236DF9710C1219369AC5AB39B2A</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>faf314c6-726f-46e7-a06b-229758cffd08_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>faf314c6-726f-46e7-a06b-229758cffd08_9zz4h110yvjzm!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>faf314c6-726f-46e7-a06b-229758cffd08</RegisteredPackageID>
+    <LayoutDir>C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>52F8784AA4B5F53552B44E4C473B6A961D29494714C3196279B52ECB2B03B610</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>79230b81-ef8a-4ee0-98b0-1c0b4ef74cd1_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>79230b81-ef8a-4ee0-98b0-1c0b4ef74cd1_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>79230b81-ef8a-4ee0-98b0-1c0b4ef74cd1</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-25T13:34:05.826</Modified>
+      <Modified>2024-02-06T13:19:59.054</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-25T13:34:05.499</Modified>
+      <Modified>2024-02-06T13:19:13.743</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UI.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UI.runtimeconfig.json">
       <PackagePath>UI.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-25T12:35:29.221</Modified>
+      <Modified>2024-02-06T13:19:13.656</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UI.dll">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UI.dll">
       <PackagePath>UI.dll</PackagePath>
-      <Modified>2024-01-25T13:34:04.018</Modified>
+      <Modified>2024-02-06T13:19:57.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>UI.exe</PackagePath>
-      <Modified>2024-01-25T13:34:04.029</Modified>
+      <Modified>2024-02-06T13:19:57.611</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UI.deps.json">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UI.deps.json">
       <PackagePath>UI.deps.json</PackagePath>
-      <Modified>2024-01-25T13:34:05.274</Modified>
+      <Modified>2024-02-06T13:19:13.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -925,9 +925,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\Entidades\bin\Debug\net7.0\Entidades.dll">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\Entidades\bin\Debug\net7.0\Entidades.dll">
       <PackagePath>Entidades.dll</PackagePath>
-      <Modified>2024-01-25T10:21:57.275</Modified>
+      <Modified>2024-02-06T12:26:50.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -941,241 +941,241 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-06-30T14:50:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-01-25T10:52:22.374</Modified>
+      <Modified>2024-02-06T12:25:52.491</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.539</Modified>
+      <Modified>2024-02-06T12:26:03.922</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.560</Modified>
+      <Modified>2024-02-06T12:26:03.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.590</Modified>
+      <Modified>2024-02-06T12:26:03.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.629</Modified>
+      <Modified>2024-02-06T12:26:03.986</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.765</Modified>
+      <Modified>2024-02-06T12:26:04.099</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-01-25T10:52:22.371</Modified>
+      <Modified>2024-02-06T12:25:52.487</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-01-25T10:52:22.372</Modified>
+      <Modified>2024-02-06T12:25:52.489</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-01-25T10:52:31.807</Modified>
+      <Modified>2024-02-06T12:26:04.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-01-25T10:52:32.042</Modified>
+      <Modified>2024-02-06T12:26:04.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-01-25T10:52:32.055</Modified>
+      <Modified>2024-02-06T12:26:04.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-01-25T10:52:32.065</Modified>
+      <Modified>2024-02-06T12:26:04.394</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-01-25T10:52:32.085</Modified>
+      <Modified>2024-02-06T12:26:04.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-01-25T10:52:32.149</Modified>
+      <Modified>2024-02-06T12:26:04.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.872</Modified>
+      <Modified>2024-02-06T12:26:04.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.875</Modified>
+      <Modified>2024-02-06T12:26:04.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.891</Modified>
+      <Modified>2024-02-06T12:26:04.227</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.878</Modified>
+      <Modified>2024-02-06T12:26:04.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.881</Modified>
+      <Modified>2024-02-06T12:26:04.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.853</Modified>
+      <Modified>2024-02-06T12:26:04.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.856</Modified>
+      <Modified>2024-02-06T12:26:04.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.868</Modified>
+      <Modified>2024-02-06T12:26:04.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.859</Modified>
+      <Modified>2024-02-06T12:26:04.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.861</Modified>
+      <Modified>2024-02-06T12:26:04.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.818</Modified>
+      <Modified>2024-02-06T12:26:04.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.821</Modified>
+      <Modified>2024-02-06T12:26:04.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.824</Modified>
+      <Modified>2024-02-06T12:26:04.165</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.827</Modified>
+      <Modified>2024-02-06T12:26:04.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.833</Modified>
+      <Modified>2024-02-06T12:26:04.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.835</Modified>
+      <Modified>2024-02-06T12:26:04.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.838</Modified>
+      <Modified>2024-02-06T12:26:04.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.851</Modified>
+      <Modified>2024-02-06T12:26:04.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.840</Modified>
+      <Modified>2024-02-06T12:26:04.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.843</Modified>
+      <Modified>2024-02-06T12:26:04.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.934</Modified>
+      <Modified>2024-02-06T12:26:04.269</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.938</Modified>
+      <Modified>2024-02-06T12:26:04.273</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.944</Modified>
+      <Modified>2024-02-06T12:26:04.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.952</Modified>
+      <Modified>2024-02-06T12:26:04.288</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.967</Modified>
+      <Modified>2024-02-06T12:26:04.303</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.912</Modified>
+      <Modified>2024-02-06T12:26:04.246</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.915</Modified>
+      <Modified>2024-02-06T12:26:04.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.919</Modified>
+      <Modified>2024-02-06T12:26:04.254</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.922</Modified>
+      <Modified>2024-02-06T12:26:04.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.930</Modified>
+      <Modified>2024-02-06T12:26:04.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.895</Modified>
+      <Modified>2024-02-06T12:26:04.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.898</Modified>
+      <Modified>2024-02-06T12:26:04.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.900</Modified>
+      <Modified>2024-02-06T12:26:04.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.904</Modified>
+      <Modified>2024-02-06T12:26:04.239</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.908</Modified>
+      <Modified>2024-02-06T12:26:04.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.974</Modified>
+      <Modified>2024-02-06T12:26:04.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.980</Modified>
+      <Modified>2024-02-06T12:26:04.315</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.988</Modified>
+      <Modified>2024-02-06T12:26:04.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-01-25T10:52:32.002</Modified>
+      <Modified>2024-02-06T12:26:04.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-01-25T10:52:32.033</Modified>
+      <Modified>2024-02-06T12:26:04.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.852</Modified>
+      <Modified>2024-02-06T12:26:04.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.862</Modified>
+      <Modified>2024-02-06T12:26:04.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.876</Modified>
+      <Modified>2024-02-06T12:26:04.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.897</Modified>
+      <Modified>2024-02-06T12:26:04.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jmgallego\Desktop\API\API\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-01-25T10:52:31.940</Modified>
+      <Modified>2024-02-06T12:26:04.276</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
