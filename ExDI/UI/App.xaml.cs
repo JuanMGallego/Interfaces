@@ -1,6 +1,4 @@
-﻿using UI.Views;
-
-namespace UI
+﻿namespace UI
 {
     public partial class App : Application
     {
@@ -8,7 +6,7 @@ namespace UI
         {
             InitializeComponent();
 
-            MainPage = new ListadoPersonasPage();
+            MainPage = new AppShell();
         }
     }
 }

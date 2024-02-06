@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace PrácticaMAUI.ViewModels.utils
+namespace Ejercicio03CRUD.ViewModels.Utilis
 {
     public class DelegateCommand : ICommand
     {
@@ -20,7 +20,7 @@ namespace PrácticaMAUI.ViewModels.utils
         /// </summary>
         /// <param name="execute">The execution logic.</param>
         /// <exception cref="ArgumentNullException">If the execute argument is null.</exception>
-        public DelegateCommand(Action execute, bool v)
+        public DelegateCommand(Action execute)
             : this(execute, null)
         {
         }
