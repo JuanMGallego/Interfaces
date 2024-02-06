@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlacasSolares")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+774c1950f059235d4e8193a154285135c42942f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlacasSolares")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlacasSolares")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,7 @@
     {
         public static string getUriBase()
         {
-            return "https://localhost/API/";
+            return "https://crudnervion.azurewebsites.net/api/";
         }
     }
 

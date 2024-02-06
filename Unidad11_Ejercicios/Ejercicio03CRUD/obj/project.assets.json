@@ -25989,6 +25989,7 @@
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
       "BL >= 1.0.0",
+      "DAL >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26010,6 +26011,7 @@
     ],
     "net7.0-ios16.1": [
       "BL >= 1.0.0",
+      "DAL >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26020,6 +26022,7 @@
     ],
     "net7.0-maccatalyst16.1": [
       "BL >= 1.0.0",
+      "DAL >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26030,6 +26033,7 @@
     ],
     "net7.0-windows10.0.19041": [
       "BL >= 1.0.0",
+      "DAL >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26078,6 +26082,9 @@
           "projectReferences": {
             "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\BL\\BL.csproj": {
               "projectPath": "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\BL\\BL.csproj"
+            },
+            "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\DAL\\DAL.csproj"
             }
           }
         },
@@ -26086,6 +26093,9 @@
           "projectReferences": {
             "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\BL\\BL.csproj": {
               "projectPath": "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\BL\\BL.csproj"
+            },
+            "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\DAL\\DAL.csproj"
             }
           }
         },
@@ -26094,6 +26104,9 @@
           "projectReferences": {
             "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\BL\\BL.csproj": {
               "projectPath": "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\BL\\BL.csproj"
+            },
+            "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\DAL\\DAL.csproj"
             }
           }
         },
@@ -26102,6 +26115,9 @@
           "projectReferences": {
             "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\BL\\BL.csproj": {
               "projectPath": "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\BL\\BL.csproj"
+            },
+            "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\DAL\\DAL.csproj"
             }
           }
         }

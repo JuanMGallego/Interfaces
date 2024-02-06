@@ -2,6 +2,7 @@
 using Entidades;
 using Newtonsoft.Json;
 
+
 namespace DAL
 {
 

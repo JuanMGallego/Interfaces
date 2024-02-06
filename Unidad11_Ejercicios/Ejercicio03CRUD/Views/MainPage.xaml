@@ -11,9 +11,17 @@
         <models:MainVM />
     </ContentPage.BindingContext>
 
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="CRUD | JMGG" FontSize="20" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="20"/>
-        <Button Text="Entrar" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Command="{Binding ChangePageCommand}"/>
+    <ContentPage.Background>
+        <LinearGradientBrush>
+            <GradientStop Color="#1DE7B9" Offset="0.1"/>
+            <GradientStop Color="#19BF99" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+        <Label Text="CRUD | JMGG" FontSize="40" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="20" FontFamily="AntonRegular" TextColor="White"/>
+        <Button Text="Entrar" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Command="{Binding NavigateListadosCommand}" TextColor="Black"/>
     </StackLayout>
 
 </ContentPage>

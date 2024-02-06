@@ -30,29 +30,29 @@
     <AppXManifest Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-04T19:44:35.454</Modified>
+      <Modified>2024-02-05T22:55:19.944</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-04T19:44:35.204</Modified>
+      <Modified>2024-02-05T22:55:19.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio03CRUD.runtimeconfig.json">
       <PackagePath>Ejercicio03CRUD.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-04T12:41:57.634</Modified>
+      <Modified>2024-02-05T18:45:32.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio03CRUD.dll">
       <PackagePath>Ejercicio03CRUD.dll</PackagePath>
-      <Modified>2024-02-04T19:44:34.188</Modified>
+      <Modified>2024-02-05T22:55:19.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ejercicio03CRUD.exe</PackagePath>
-      <Modified>2024-02-04T19:44:34.201</Modified>
+      <Modified>2024-02-05T22:55:19.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio03CRUD.deps.json">
       <PackagePath>Ejercicio03CRUD.deps.json</PackagePath>
-      <Modified>2024-02-04T15:50:27.025</Modified>
+      <Modified>2024-02-05T22:28:48.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.15\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -928,15 +928,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\bin\Debug\net7.0\BL.dll">
       <PackagePath>BL.dll</PackagePath>
-      <Modified>2024-02-04T12:55:59.616</Modified>
+      <Modified>2024-02-05T22:28:42.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\bin\Debug\net7.0\DAL.dll">
       <PackagePath>DAL.dll</PackagePath>
-      <Modified>2024-02-04T12:54:58.499</Modified>
+      <Modified>2024-02-05T22:28:42.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Entidades\bin\Debug\net7.0\Entidades.dll">
       <PackagePath>Entidades.dll</PackagePath>
-      <Modified>2024-02-04T12:41:51.997</Modified>
+      <Modified>2024-02-05T21:20:52.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\.nuget\packages\microsoft.maui.controls.ref.win\7.0.101\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -973,6 +973,10 @@
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-01-08T17:51:59.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Anton-Regular.ttf">
+      <PackagePath>Anton-Regular.ttf</PackagePath>
+      <Modified>2024-02-05T20:07:38.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>

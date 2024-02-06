@@ -36,6 +36,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio03CRUD.Resources.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/Unidad11_Ejercicios/Ejercicio03CRUD/Views/EditarInsertarDepartamentoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio03CRUD.Views.EditarInsertarDepartamentoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditarInsertarDepartamentoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditarInsertarDepartamentoPage.xaml
+
 [C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/Unidad11_Ejercicios/Ejercicio03CRUD/Views/ListadoDepartamentosPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio03CRUD.Views.ListadoDepartamentosPage.xaml

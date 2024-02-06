@@ -1,4 +1,7 @@
-﻿namespace Ejercicio03CRUD
+﻿using Ejercicio03CRUD.ViewModels;
+using Ejercicio03CRUD.Views;
+
+namespace Ejercicio03CRUD
 {
     public partial class App : Application
     {
@@ -8,5 +11,13 @@
 
             MainPage = new AppShell();
         }
+
+        protected override async void OnStart()
+        {
+            await Shell.Current.GoToAsync("MainPage");
+
+            base.OnStart();
+        }
+
     }
 }

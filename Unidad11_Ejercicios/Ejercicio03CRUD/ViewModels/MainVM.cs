@@ -1,20 +1,19 @@
-﻿using System.Windows.Input;
+﻿using Ejercicio03CRUD.ViewModels.Utilis;
 
 namespace Ejercicio03CRUD.ViewModels
 {
-    public class MainVM
+    public class MainVM : clsVMBase
     {
-        public ICommand ChangePageCommand { get; }
+        public DelegateCommand NavigateListadosCommand { get; }
 
         public MainVM()
         {
-            ChangePageCommand = new Command(ChangePage);
+            NavigateListadosCommand = new DelegateCommand(NavigateListados);
         }
 
-        private async void ChangePage()
+        private async void NavigateListados()
         {
-            await Shell.Current.GoToAsync("//personas");
+            await Shell.Current.GoToAsync("//ListadoPersonasPage");
         }
-
     }
 }

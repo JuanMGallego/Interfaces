@@ -12,6 +12,9 @@
     <MauiXaml Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\EditarInsertarDepartamentoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\ListadoDepartamentosPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
