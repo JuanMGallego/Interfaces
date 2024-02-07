@@ -1,47 +1,49 @@
 ﻿using Ejercicio03CRUD.ViewModels.Utilis;
 using Newtonsoft.Json;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using UI.DAL;
 using UI.DAL.Conexion;
 using UI.Models;
 
 namespace UI.ViewModels
 {
-    public class clsListadoPersonasVM : clsVMBase
+    class ListadoPersonasVM : clsVMBase
     {
-        private List<clsPersona> _personas;
+        private ObservableCollection<clsPersona> _listadoPersonas;
 
-        public List<clsPersona> Personas
+        public ObservableCollection<clsPersona> ListadoPersonas
         {
-            get { return _personas; }
+            get { return _listadoPersonas; }
             set
             {
-                _personas = value;
-                NotifyPropertyChanged(); // Este método notifica a la interfaz de usuario que la propiedad ha cambiado
+                _listadoPersonas = value;
+                OnPropertyChanged();
             }
         }
 
-        public async Task CargarPersonas()
+        public ListadoPersonasVM()
         {
-            try
-            {
-                string miCadenaUrl = clsMyConexion.getUriBase();
-                Uri miUri = new Uri($"{miCadenaUrl}Personas");
+            ListadoPersonas = new ObservableCollection<clsPersona>();
+            _ = CargarListadoPersonas();
+        }
 
-                using (HttpClient mihttpClient = new HttpClient())
-                {
-                    HttpResponseMessage miCodigoRespuesta = await mihttpClient.GetAsync(miUri);
-
-                    if (miCodigoRespuesta.IsSuccessStatusCode)
-                    {
-                        string textoJsonRespuesta = await mihttpClient.GetStringAsync(miUri);
-                        List<clsPersona> listadoPersonas = JsonConvert.DeserializeObject<List<clsPersona>>(textoJsonRespuesta);
-                        Personas = listadoPersonas;
-                    }
-                }
-            }
-            catch (Exception ex)
+        private async Task CargarListadoPersonas()
+        {
+            var personasDAL = new clsListadoPersonasDAL();
+            var listaPersonas = await personasDAL.getPersonasDAL();
+            foreach (var persona in listaPersonas)
             {
-                throw ex;
+                ListadoPersonas.Add(persona);
             }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

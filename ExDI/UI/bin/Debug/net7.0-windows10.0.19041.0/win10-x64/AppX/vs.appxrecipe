@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-06T13:19:59.054</Modified>
+      <Modified>2024-02-07T08:15:32.927</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-06T13:19:13.743</Modified>
+      <Modified>2024-02-07T07:44:34.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UI.runtimeconfig.json">
       <PackagePath>UI.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-06T13:19:13.656</Modified>
+      <Modified>2024-02-07T07:44:33.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UI.dll">
       <PackagePath>UI.dll</PackagePath>
-      <Modified>2024-02-06T13:19:57.597</Modified>
+      <Modified>2024-02-07T08:15:31.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>UI.exe</PackagePath>
-      <Modified>2024-02-06T13:19:57.611</Modified>
+      <Modified>2024-02-07T08:15:31.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\UI\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\UI.deps.json">
       <PackagePath>UI.deps.json</PackagePath>
-      <Modified>2024-02-06T13:19:13.655</Modified>
+      <Modified>2024-02-07T07:44:33.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -927,7 +927,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\ExDI\Entidades\bin\Debug\net7.0\Entidades.dll">
       <PackagePath>Entidades.dll</PackagePath>
-      <Modified>2024-02-06T12:26:50.101</Modified>
+      <Modified>2024-02-07T07:44:26.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

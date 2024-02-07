@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dTR1Kk/jwaECxBPMJOPbfCY+edWlGbobUdCYxdcFbwbcGH8JniyehN7NtMo3uXWcNiC2vgjak0PI8q1hihMNWg==",
+  "dgSpecHash": "2KnXbGThmRxczEhBjtD84nrU4McQqGEHTHAuM1se03EUk6SG0d+4a0DlzsYv/MKUGd+0wGmCEv6feEtO/8gPSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JuanmitaELPRO\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\jmgallego\\Documents\\GitHub\\Interfaces\\Unidad11_Ejercicios\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JuanmitaELPRO\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\jmgallego\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
