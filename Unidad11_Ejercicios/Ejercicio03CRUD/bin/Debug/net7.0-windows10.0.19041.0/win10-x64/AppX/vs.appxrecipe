@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-05T22:55:19.944</Modified>
+      <Modified>2024-02-06T14:51:10.680</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio03CRUD.dll">
       <PackagePath>Ejercicio03CRUD.dll</PackagePath>
-      <Modified>2024-02-05T22:55:19.002</Modified>
+      <Modified>2024-02-06T14:51:09.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ejercicio03CRUD.exe</PackagePath>
-      <Modified>2024-02-05T22:55:19.006</Modified>
+      <Modified>2024-02-06T14:51:09.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio03CRUD.deps.json">
       <PackagePath>Ejercicio03CRUD.deps.json</PackagePath>
