@@ -23,7 +23,7 @@ namespace UI.DAL.Conexion
     {
         public static string getUriBase()
         {
-            return "https://localhost:5264/api/";
+            return "http://localhost:5264/api/";
         }
     }
 

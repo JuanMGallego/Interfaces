@@ -42,12 +42,7 @@ namespace UI.DAL
 
                     mihttpClient.Dispose();
 
-                    //JsonConvert necesita using Newtonsoft.Json;
-
-                    //Es el paquete Nuget de Newtonsoft
-
-                    listadoPersonas =
-                    JsonConvert.DeserializeObject<List<clsPersona>>(textoJsonRespuesta);
+                    listadoPersonas = JsonConvert.DeserializeObject<List<clsPersona>>(textoJsonRespuesta);
 
                 }
 

@@ -1,31 +1,27 @@
 ﻿using Ejercicio03CRUD.ViewModels.Utilis;
-using Newtonsoft.Json;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
 using UI.DAL;
-using UI.DAL.Conexion;
 using UI.Models;
 
 namespace UI.ViewModels
 {
-    class ListadoPersonasVM : clsVMBase
+    class clsListadoPersonasVM : clsVMBase
     {
-        private ObservableCollection<clsPersona> _listadoPersonas;
+        private ObservableCollection<clsPersonaModel> _listadoPersonas;
 
-        public ObservableCollection<clsPersona> ListadoPersonas
+        public ObservableCollection<clsPersonaModel> ListadoPersonas
         {
             get { return _listadoPersonas; }
             set
             {
                 _listadoPersonas = value;
-                OnPropertyChanged();
+                NotifyPropertyChanged();
             }
         }
 
-        public ListadoPersonasVM()
+        public clsListadoPersonasVM()
         {
-            ListadoPersonas = new ObservableCollection<clsPersona>();
+            ListadoPersonas = new ObservableCollection<clsPersonaModel>();
             _ = CargarListadoPersonas();
         }
 
@@ -33,17 +29,18 @@ namespace UI.ViewModels
         {
             var personasDAL = new clsListadoPersonasDAL();
             var listaPersonas = await personasDAL.getPersonasDAL();
+
             foreach (var persona in listaPersonas)
             {
-                ListadoPersonas.Add(persona);
+                // Mapear clsPersona a clsPersonaModel
+                var personaModel = new clsPersonaModel
+                {
+                    Nombre = persona.Nombre,
+                    Apellidos = persona.Apellidos
+                };
+
+                ListadoPersonas.Add(personaModel);
             }
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

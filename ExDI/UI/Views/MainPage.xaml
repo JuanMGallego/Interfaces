@@ -8,16 +8,21 @@
         <viewModels:clsListadoPersonasVM/>
     </ContentPage.BindingContext>
 
-    <VerticalStackLayout>
+    <VerticalStackLayout Padding="20">
         <Label Text="Prueba"/>
-        <ListView ItemsSource="{Binding Personas}">
+        <ListView ItemsSource="{Binding ListadoPersonas}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Orientation="Horizontal" Padding="10">
-                            <Label Text="{Binding Nombre}" FontAttributes="Bold" />
-                            <Label Text="{Binding Apellidos}" />
-                        </StackLayout>
+                        <Frame BorderColor="Transparent" CornerRadius="10" BackgroundColor="#72B0CD">
+                            <StackLayout Orientation="Horizontal" Spacing="10">
+                                <Label Text="{Binding Nombre}" FontSize="15"/>
+                                <Label Text="{Binding Apellidos}" FontSize="15"/>
+                                <Picker ItemsSource="{Binding ListadoDepartamentos}" Title="Seleccionar Departamento">
+                                    
+                                </Picker>
+                            </StackLayout>
+                        </Frame>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
