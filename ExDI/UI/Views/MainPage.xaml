@@ -5,7 +5,7 @@
              xmlns:viewModels="clr-namespace:UI.ViewModels">
 
     <ContentPage.BindingContext>
-        <viewModels:clsListadoPersonasVM/>
+        <viewModels:MainPageVM/>
     </ContentPage.BindingContext>
 
     <VerticalStackLayout Padding="20">
