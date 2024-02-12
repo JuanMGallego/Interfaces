@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.Views.MainPage"
+             xmlns:viewModels="clr-namespace:UI.ViewModels"
+             Title="Guess Department Game">
+
+    <ContentPage.BindingContext>
+        <viewModels:MainPageVM/>
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="Guess the department of each person in the list" FontSize="Large" HorizontalTextAlignment="Center" />
+        <ListView ItemsSource="{Binding ListadoPersonas}" SelectionMode="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BorderColor="Transparent" CornerRadius="10" BackgroundColor="#72B0CD">
+                            <StackLayout Orientation="Horizontal" Spacing="10">
+                                <Label Text="{Binding Nombre}" FontSize="15"/>
+                                <Label Text="{Binding Apellidos}" FontSize="15"/>
+                                <Picker ItemsSource="{Binding ListadoDepartamentos}" SelectedItem="{Binding SelectedDepartment, Mode=TwoWay}" Title="Seleccionar Departamento" HorizontalOptions="FillAndExpand" />
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label Text="{Binding AttemptsLeft, StringFormat='You have {0} attempts left'}" FontSize="Medium" HorizontalTextAlignment="Center" />
+        <Button Text="Check" Command="{Binding CheckCommand}" IsEnabled="{Binding CanCheck}" HorizontalOptions="Center" />
+        <Label Text="{Binding FeedbackMessage}" FontSize="Medium" HorizontalTextAlignment="Center" TextColor="Red" />
+        <Button Text="Restart" Command="{Binding RestartCommand}" IsEnabled="{Binding CanRestart}" HorizontalOptions="Center" />
+    </VerticalStackLayout>
+
+</ContentPage>
