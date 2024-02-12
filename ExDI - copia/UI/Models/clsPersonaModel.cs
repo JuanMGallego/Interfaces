@@ -11,19 +11,17 @@ namespace UI.Models
             Id = 0;
             Nombre = "";
             Apellidos = "";
-            DepartamentoSeleccionado = null;
 
         }
 
         //Constructor por parametros
 
-        public clsPersonaModel(int Id, string Nombre, string Apellidos, clsDepartamento DepartamentoSeleccionado)
+        public clsPersonaModel(int Id, string Nombre, string Apellidos)
         {
 
             this.Id = Id;
             this.Nombre = Nombre;
             this.Apellidos = Apellidos;
-            this.DepartamentoSeleccionado = DepartamentoSeleccionado;
         }
 
         public clsPersonaModel(clsPersonaModel p)
@@ -32,19 +30,15 @@ namespace UI.Models
             this.Id = p.Id;
             this.Nombre = p.Nombre;
             this.Apellidos = p.Apellidos;
-            this.DepartamentoSeleccionado = p.DepartamentoSeleccionado;
         }
         #endregion
 
         #region Propiedades autoimplementadas
 
         public int Id { get; set; }
-
         public string Nombre { get; set; }
-
         public string Apellidos { get; set; }
-
-        public clsDepartamento DepartamentoSeleccionado { get; set; }
+        public string Departamento { get; set; }
 
         #endregion
     }
