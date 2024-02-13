@@ -10,17 +10,16 @@ namespace UI.ViewModels
         private ObservableCollection<clsPersonaConDepartamentoModel> _listadoPersonas;
         private int _numeroIntentos;
         private int _numeroAciertos;
-        private string _mensaje;
 
         public MainPageVM()
         {
             ListadoPersonas = new ObservableCollection<clsPersonaConDepartamentoModel>();
             NumeroIntentos = 3;
             NumeroAciertos = 0;
-            Mensaje = "";
             ComprobarCommand = new DelegateCommand(Comprobar);
             CargarListado();
         }
+
         public ObservableCollection<clsPersonaConDepartamentoModel> ListadoPersonas
         {
             get { return _listadoPersonas; }
@@ -34,6 +33,7 @@ namespace UI.ViewModels
         public DelegateCommand ComprobarCommand { get; }
 
         public DelegateCommand ReiniciarCommand { get; }
+
         public Page Pagina { get; set; }
 
         public int NumeroIntentos
@@ -52,16 +52,6 @@ namespace UI.ViewModels
             set
             {
                 _numeroAciertos = value;
-                NotifyPropertyChanged();
-            }
-        }
-
-        public string Mensaje
-        {
-            get { return _mensaje; }
-            set
-            {
-                _mensaje = value;
                 NotifyPropertyChanged();
             }
         }
@@ -93,37 +83,33 @@ namespace UI.ViewModels
 
             NumeroIntentos--;
 
-            if (NumeroAciertos == ListadoPersonas.Count) // Si se han acertado todos los departamentos
+            if (NumeroAciertos == ListadoPersonas.Count)
             {
-                // Mostrar un display alert que diga "Has ganado" y preguntar si quiere volver a jugar
+                
                 var respuesta = await Application.Current.MainPage.DisplayAlert("Has ganado", "¿Quieres volver a jugar?", "Sí", "No");
-                if (respuesta) // Si el usuario dice que sí
+                if (respuesta)
                 {
-                    Reiniciar(); // Llamar al método Reiniciar para reiniciar el juego
+                    Reiniciar();
                 }
-                else // Si el usuario dice que no
+                else
                 {
-                    // Cerrar la aplicación
                     System.Environment.Exit(0);
                 }
             }
-            else if (NumeroIntentos == 0) // Si se han agotado los intentos
+            else if (NumeroIntentos == -1)
             {
-                // Mostrar un display alert que diga "Has perdido" y preguntar si quiere volver a jugar
                 bool respuesta = await Application.Current.MainPage.DisplayAlert("Has perdido", "¿Quieres volver a jugar?", "Sí", "No");
-                if (respuesta) // Si el usuario dice que sí
+                if (respuesta)
                 {
-                    Reiniciar(); // Llamar al método Reiniciar para reiniciar el juego
+                    Reiniciar();
                 }
-                else // Si el usuario dice que no
+                else
                 {
-                    // Cerrar la aplicación
                     System.Environment.Exit(0);
                 }
             }
-            else // Si aún quedan intentos
+            else
             {
-                // Mostrar un display alert que informe de los aciertos y los intentos que le quedan
                 await Application.Current.MainPage.DisplayAlert("Resultado", $"Has acertado {NumeroAciertos} de {ListadoPersonas.Count}. Te quedan {NumeroIntentos} intentos.", "OK");
             }
         }
@@ -132,8 +118,6 @@ namespace UI.ViewModels
         {
             NumeroIntentos = 3;
             NumeroAciertos = 0;
-
-            Mensaje = "";
         }
     }
 }

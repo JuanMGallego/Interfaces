@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UI.Views.MainPage"
-             xmlns:viewModels="clr-namespace:UI.ViewModels">
+             xmlns:viewModels="clr-namespace:UI.ViewModels"
+             BackgroundColor="#DDEAFA">
 
     <ContentPage.BindingContext>
         <viewModels:MainPageVM/>
@@ -10,27 +11,37 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="20">
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                <Label Text="Intentos Restantes:" FontSize="20" FontAttributes="Bold" Padding="10" TextColor="#0656D0"/>
+                <Label Text="{Binding NumeroIntentos}" FontSize="20" FontAttributes="Bold" Padding="10" TextColor="#0656D0"/>
+            </HorizontalStackLayout>
             <ListView ItemsSource="{Binding ListadoPersonas}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Frame BorderColor="Transparent" CornerRadius="10" BackgroundColor="#72B0CD">
-                                <StackLayout Orientation="Horizontal" Spacing="10">
-                                    <Label Text="{Binding Nombre}" FontSize="15"/>
-                                    <Label Text="{Binding Apellidos}" FontSize="15"/>
-                                    <Picker ItemsSource="{Binding Departamentos}" SelectedItem="{Binding DepartamentoSeleccionado, Mode=TwoWay}">
+                            <Frame BorderColor="Transparent" CornerRadius="10" BackgroundColor="#8FB0E5" Margin="5">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Orientation="Horizontal" Spacing="10" Grid.Column="0">
+                                        <Label Text="{Binding Nombre}" FontSize="20" VerticalOptions="Center" TextColor="#0656D0"/>
+                                        <Label Text="{Binding Apellidos}" FontSize="20" VerticalOptions="Center" TextColor="#0656D0"/>
+                                    </StackLayout>
+                                    <Picker ItemsSource="{Binding Departamentos}" SelectedItem="{Binding DepartamentoSeleccionado, Mode=TwoWay}" BackgroundColor="#A1B7D9" WidthRequest="200" HeightRequest="5" HorizontalOptions="End" Grid.Column="1">
                                         <Picker.ItemDisplayBinding>
                                             <Binding Path="Nombre"/>
                                         </Picker.ItemDisplayBinding>
                                     </Picker>
-                                </StackLayout>
+                                </Grid>
                             </Frame>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="Comprobar" Command="{Binding ComprobarCommand}"/>
+            <Button Text="Comprobar" Command="{Binding ComprobarCommand}" BackgroundColor="#2F8CD2" TextColor="#04337A" Margin="5"/>
         </VerticalStackLayout>
     </ScrollView>
-    
+
 </ContentPage>
