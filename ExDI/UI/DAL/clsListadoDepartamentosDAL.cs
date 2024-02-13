@@ -3,6 +3,7 @@ using Entidades;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,26 +13,23 @@ namespace UI.DAL
 {
     public class clsListadoDepartamentosDAL : clsVMBase
     {
+        public object Id { get; internal set; }
 
-        public async Task<List<clsDepartamento>> getDepartamentosDAL()
+        public async Task<ObservableCollection<clsDepartamento>> getDepartamentosDAL()
 
         {
-
-            //Pido la cadena de la Uri al método estático
 
             string miCadenaUrl = clsMyConexion.getUriBase();
 
             Uri miUri = new Uri($"{miCadenaUrl}Departamentos");
 
-            List<clsDepartamento> listadoDepartamentos = new List<clsDepartamento>();
+            ObservableCollection<clsDepartamento> listadoDepartamentos = new ObservableCollection<clsDepartamento>();
 
             HttpClient mihttpClient;
 
             HttpResponseMessage miCodigoRespuesta;
 
             string textoJsonRespuesta;
-
-            //Instanciamos el cliente Http
 
             mihttpClient = new HttpClient();
 
@@ -48,7 +46,7 @@ namespace UI.DAL
 
                     mihttpClient.Dispose();
 
-                    listadoDepartamentos = JsonConvert.DeserializeObject<List<clsDepartamento>>(textoJsonRespuesta);
+                    listadoDepartamentos = JsonConvert.DeserializeObject<ObservableCollection<clsDepartamento>>(textoJsonRespuesta);
 
                 }
 

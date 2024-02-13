@@ -1,31 +1,28 @@
 ﻿using Ejercicio03CRUD.ViewModels.Utilis;
 using Entidades;
 using Newtonsoft.Json;
+using System.Collections.ObjectModel;
 using UI.DAL.Conexion;
 
 namespace UI.DAL
 {
     public class clsListadoPersonasDAL : clsVMBase
     {
-        public async Task<List<clsPersona>> getPersonasDAL()
+        public async Task<ObservableCollection<clsPersona>> getPersonasDAL()
 
         {
-
-            //Pido la cadena de la Uri al método estático
 
             string miCadenaUrl = clsMyConexion.getUriBase();
 
             Uri miUri = new Uri($"{miCadenaUrl}Personas");
 
-            List<clsPersona> listadoPersonas = new List<clsPersona>();
+            ObservableCollection<clsPersona> listadoPersonas = new ObservableCollection<clsPersona>();
 
             HttpClient mihttpClient;
 
             HttpResponseMessage miCodigoRespuesta;
 
             string textoJsonRespuesta;
-
-            //Instanciamos el cliente Http
 
             mihttpClient = new HttpClient();
 
@@ -42,7 +39,7 @@ namespace UI.DAL
 
                     mihttpClient.Dispose();
 
-                    listadoPersonas = JsonConvert.DeserializeObject<List<clsPersona>>(textoJsonRespuesta);
+                    listadoPersonas = JsonConvert.DeserializeObject<ObservableCollection<clsPersona>>(textoJsonRespuesta);
 
                 }
 

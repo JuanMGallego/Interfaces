@@ -8,25 +8,29 @@
         <viewModels:MainPageVM/>
     </ContentPage.BindingContext>
 
-    <VerticalStackLayout Padding="20">
-        <Label Text="Prueba"/>
-        <ListView ItemsSource="{Binding ListadoPersonas}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Frame BorderColor="Transparent" CornerRadius="10" BackgroundColor="#72B0CD">
-                            <StackLayout Orientation="Horizontal" Spacing="10">
-                                <Label Text="{Binding Nombre}" FontSize="15"/>
-                                <Label Text="{Binding Apellidos}" FontSize="15"/>
-                                <Picker ItemsSource="{Binding ListadoDepartamentos}" Title="Seleccionar Departamento" >
-                                    
-                                </Picker>
-                            </StackLayout>
-                        </Frame>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </VerticalStackLayout>
-
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <ListView ItemsSource="{Binding ListadoPersonas}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BorderColor="Transparent" CornerRadius="10" BackgroundColor="#72B0CD">
+                                <StackLayout Orientation="Horizontal" Spacing="10">
+                                    <Label Text="{Binding Nombre}" FontSize="15"/>
+                                    <Label Text="{Binding Apellidos}" FontSize="15"/>
+                                    <Picker ItemsSource="{Binding Departamentos}" SelectedItem="{Binding DepartamentoSeleccionado, Mode=TwoWay}">
+                                        <Picker.ItemDisplayBinding>
+                                            <Binding Path="Nombre"/>
+                                        </Picker.ItemDisplayBinding>
+                                    </Picker>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Comprobar" Command="{Binding ComprobarCommand}"/>
+        </VerticalStackLayout>
+    </ScrollView>
+    
 </ContentPage>

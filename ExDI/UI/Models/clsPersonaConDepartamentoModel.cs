@@ -1,56 +1,58 @@
 ﻿using Entidades;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UI.DAL;
 
 namespace UI.Models
 {
-    public class clsPersonaModel
+    public class clsPersonaConDepartamentoModel
     {
         #region constructores
-        //Constructor por defecto
-        public clsPersonaModel()
+        public clsPersonaConDepartamentoModel()
         {
             Id = 0;
             Nombre = "";
             Apellidos = "";
-            Departamentos = new ObservableCollection<clsListadoDepartamentosDAL>();
+            IdDepartamento = 0;
+            Departamentos = new ObservableCollection<clsDepartamento>();
+            DepartamentoSeleccionado = null;
         }
 
-        //Constructor por parametros
-
-        public clsPersonaModel(int Id, string Nombre, string Apellidos, ObservableCollection<clsListadoDepartamentosDAL> Departamentos)
+        public clsPersonaConDepartamentoModel(int Id, string Nombre, string Apellidos, int IdDepartamento, ObservableCollection<clsDepartamento> Departamentos)
         {
 
             this.Id = Id;
             this.Nombre = Nombre;
             this.Apellidos = Apellidos;
+            this.IdDepartamento = IdDepartamento;
             this.Departamentos = Departamentos;
+            DepartamentoSeleccionado = null;
         }
 
-        public clsPersonaModel(clsPersonaModel p)
+        public clsPersonaConDepartamentoModel(clsPersonaConDepartamentoModel p)
         {
 
             this.Id = p.Id;
             this.Nombre = p.Nombre;
             this.Apellidos = p.Apellidos;
-            this.Departamentos = new ObservableCollection<clsListadoDepartamentosDAL>(p.Departamentos);
+            this.IdDepartamento = p.IdDepartamento;
+            this.Departamentos = new ObservableCollection<clsDepartamento>(p.Departamentos);
+            DepartamentoSeleccionado = p.DepartamentoSeleccionado;
         }
         #endregion
 
         #region Propiedades autoimplementadas
 
-        public int Id { get; set; }
+        public int Id { get; }
 
-        public string Nombre { get; set; }
+        public string Nombre { get; }
 
-        public string Apellidos { get; set; }
+        public string Apellidos { get; }
 
-        public ObservableCollection<clsListadoDepartamentosDAL> Departamentos { get; set; }
+        public int IdDepartamento { get; }
+
+        public ObservableCollection<clsDepartamento> Departamentos { get; }
+
+        public clsDepartamento DepartamentoSeleccionado { get; set; }
 
         #endregion
     }
