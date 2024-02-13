@@ -12,7 +12,7 @@ namespace UI.ViewModels
         public MainPageVM()
         {
             ListadoPersonas = new ObservableCollection<clsPersonaModel>();
-            _ = CargarListadoPersonas();
+            CargarListadoPersonas();
         }
 
         public ObservableCollection<clsPersonaModel> ListadoPersonas
@@ -25,7 +25,7 @@ namespace UI.ViewModels
             }
         }
 
-        private async Task CargarListadoPersonas()
+        private async void CargarListadoPersonas()
         {
             var personasDAL = new clsListadoPersonasDAL();
             var listaPersonas = await personasDAL.getPersonasDAL();
@@ -37,6 +37,7 @@ namespace UI.ViewModels
                 {
                     Nombre = persona.Nombre,
                     Apellidos = persona.Apellidos
+                    Departamentos = persona.Departamentos
                 };
 
                 ListadoPersonas.Add(personaModel);

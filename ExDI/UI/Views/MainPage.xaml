@@ -18,8 +18,8 @@
                             <StackLayout Orientation="Horizontal" Spacing="10">
                                 <Label Text="{Binding Nombre}" FontSize="15"/>
                                 <Label Text="{Binding Apellidos}" FontSize="15"/>
-                                <Picker ItemsSource="{Binding ListadoDepartamentos}" Title="Seleccionar Departamento">
-
+                                <Picker ItemsSource="{Binding ListadoDepartamentos}" Title="Seleccionar Departamento" >
+                                    
                                 </Picker>
                             </StackLayout>
                         </Frame>
