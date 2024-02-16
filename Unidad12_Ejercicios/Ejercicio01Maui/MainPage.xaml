@@ -9,9 +9,11 @@
             Padding="30,0"
             VerticalOptions="Center">
 
+            <Label Text="Usuario:"/>
             <Entry
                 />
 
+            <Label Text="Contraseña:"/>
             <Entry
                 />
 
@@ -21,8 +23,7 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
-            <Label
-                />
+            <ListView></ListView>
 
         </VerticalStackLayout>
     </ScrollView>
