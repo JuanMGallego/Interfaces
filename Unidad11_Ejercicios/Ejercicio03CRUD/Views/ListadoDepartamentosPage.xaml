@@ -10,7 +10,7 @@
     </ContentPage.BindingContext>
 
     <VerticalStackLayout>
-        <Button Text="Añadir Departamento" BackgroundColor="Gray" Margin="10, 5, 10, 5" TextColor="Black" Command="{Binding NavigateEditInsertCommand}"/>
+        <Button Text="Añadir Departamento" BackgroundColor="LightGreen" Margin="10, 5, 10, 5" TextColor="Black" Command="{Binding NavigateEditInsertCommand}"/>
         <Frame BorderColor="Transparent" CornerRadius="10" Padding="8" Margin="10, 5, 10, 5" BackgroundColor="Transparent">
             <StackLayout Orientation="Horizontal">
                 <Frame WidthRequest="80" Padding="10" BorderColor="Transparent" BackgroundColor="Transparent">

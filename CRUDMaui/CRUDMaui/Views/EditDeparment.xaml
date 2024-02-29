@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:CRUDMaui.ViewModel"
+             BackgroundColor="Beige"
+             x:Class="CRUDMaui.Views.EditDeparment"
+             Title="Insertar/Editar Departamento">
+    <ContentPage.BindingContext>
+        <model:EditDepartmentVM/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Margin="10">
+
+        <Label Text="Nombre" />
+        <Entry Text="{Binding Department.nombre}" BackgroundColor="White"/>
+
+        <Button Text="Guardar" Command="{Binding Guardar} " MaximumWidthRequest="300" Margin="0,20,0,0" BackgroundColor="Bisque" BorderColor="Black" TextColor="Black"/>
+
+    </StackLayout>
+</ContentPage>

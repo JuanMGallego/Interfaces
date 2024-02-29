@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDMaui.Views.EditPerson"
+             BackgroundColor="Beige"
+             xmlns:model="clr-namespace:CRUDMaui.ViewModel"
+             Title="Insertar/Editar Persona">
+
+    <ContentPage.BindingContext>
+        <model:EditPersonVM/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Margin="10">
+
+        <Label Text="Nombre" />
+        <Entry Text="{Binding Person.nombre}" BackgroundColor="White"/>
+
+        <Label Text="Apellidos" />
+        <Entry Text="{Binding Person.apellidos}" BackgroundColor="White"/>
+
+        <Label Text="Dirección" />
+        <Entry Text="{Binding Person.direccion}" BackgroundColor="White"/>
+
+        <Label Text="Teléfono" />
+        <Entry Text="{Binding Person.telefono}" BackgroundColor="White"/>
+
+        <Label Text="Fotografía" />
+        <Entry Text="{Binding Person.foto}" BackgroundColor="White"/>
+
+        <Label Text="Fecha de nacimiento" />
+        <DatePicker Date="{Binding Person.fechaNac}" BackgroundColor="White"/>
+
+        <Picker Title="Seleccionar departamento"
+                ItemsSource="{Binding Departaments}"
+                SelectedItem="{Binding SelectedDepartment, Mode=TwoWay}">
+            <Picker.ItemDisplayBinding>
+                <Binding Path="nombre"/>
+            </Picker.ItemDisplayBinding>
+        </Picker>
+
+        <Button Text="Guardar" Command="{Binding Guardar}" MaximumWidthRequest="300" Margin="0,20,0,0" BackgroundColor="Bisque" BorderColor="Black" TextColor="Black"/>
+
+    </StackLayout>
+
+</ContentPage>

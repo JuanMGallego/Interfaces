@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CRUDMaui
+build_property.ProjectDir = C:\Users\jmgallego\Downloads\CRUDMaui\CRUDMaui\CRUDMaui\
+
+[C:/Users/jmgallego/Downloads/CRUDMaui/CRUDMaui/CRUDMaui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/jmgallego/Downloads/CRUDMaui/CRUDMaui/CRUDMaui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/jmgallego/Downloads/CRUDMaui/CRUDMaui/CRUDMaui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/jmgallego/Downloads/CRUDMaui/CRUDMaui/CRUDMaui/Views/DeparmentsListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Views.DeparmentsListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DeparmentsListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DeparmentsListPage.xaml
+
+[C:/Users/jmgallego/Downloads/CRUDMaui/CRUDMaui/CRUDMaui/Views/EditDeparment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Views.EditDeparment.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditDeparment.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditDeparment.xaml
+
+[C:/Users/jmgallego/Downloads/CRUDMaui/CRUDMaui/CRUDMaui/Views/EditPerson.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Views.EditPerson.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditPerson.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditPerson.xaml
+
+[C:/Users/jmgallego/Downloads/CRUDMaui/CRUDMaui/CRUDMaui/Views/MainShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Views.MainShell.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainShell.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainShell.xaml
+
+[C:/Users/jmgallego/Downloads/CRUDMaui/CRUDMaui/CRUDMaui/Views/PersonsListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Views.PersonsListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PersonsListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PersonsListPage.xaml

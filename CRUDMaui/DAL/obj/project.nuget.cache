@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "65nVE+RSFvQPs/dKyAar2e8dTObRZ7q7UNoZ0p8PRDwd8MBO4HHp1B5r68GSEX1WqTav58UlWQ7zCYqy3svFyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jmgallego\\Downloads\\CRUDMaui\\CRUDMaui\\DAL\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmgallego\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

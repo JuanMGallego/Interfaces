@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-22T13:14:18.037</Modified>
+      <Modified>2024-02-29T12:08:28.494</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-22T13:14:17.796</Modified>
+      <Modified>2024-02-29T12:08:28.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio03CRUD.runtimeconfig.json">
       <PackagePath>Ejercicio03CRUD.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-22T11:48:07.856</Modified>
+      <Modified>2024-02-29T07:27:27.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio03CRUD.dll">
       <PackagePath>Ejercicio03CRUD.dll</PackagePath>
-      <Modified>2024-02-22T13:14:16.883</Modified>
+      <Modified>2024-02-29T12:08:26.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ejercicio03CRUD.exe</PackagePath>
-      <Modified>2024-02-22T13:14:16.895</Modified>
+      <Modified>2024-02-29T12:08:26.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Ejercicio03CRUD\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ejercicio03CRUD.deps.json">
       <PackagePath>Ejercicio03CRUD.deps.json</PackagePath>
-      <Modified>2024-02-22T11:48:07.740</Modified>
+      <Modified>2024-02-29T07:27:27.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -927,15 +927,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\BL\bin\Debug\net7.0\BL.dll">
       <PackagePath>BL.dll</PackagePath>
-      <Modified>2024-02-22T11:48:00.373</Modified>
+      <Modified>2024-02-29T07:27:21.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\DAL\bin\Debug\net7.0\DAL.dll">
       <PackagePath>DAL.dll</PackagePath>
-      <Modified>2024-02-22T11:48:00.176</Modified>
+      <Modified>2024-02-29T07:27:20.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jmgallego\Documents\GitHub\Interfaces\Unidad11_Ejercicios\Entidades\bin\Debug\net7.0\Entidades.dll">
       <PackagePath>Entidades.dll</PackagePath>
-      <Modified>2024-02-22T11:47:59.793</Modified>
+      <Modified>2024-02-29T07:27:20.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

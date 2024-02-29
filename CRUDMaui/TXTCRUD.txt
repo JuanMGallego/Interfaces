@@ -1,0 +1,81 @@
+Entidades
+	clsPerson
+	clsDepartament
+	clsPersonDeparment //Clase auxiliar que guardará personas con el nombre del departamento
+
+CAPA DAL
+	clsMyConnection
+
+	ListsDAL
+		
+		clsPersonListDAL
+			public static List<clsPerson> PersonListDAL()
+				return List<clsPerson> listaPersonas
+			public async static Task<clsPerson> DetailsDAL(int id)
+				return clsPerson person
+			public static List<clsPerson> AdultList()
+				return List<clsPerson> listaAdultos
+
+		clsDeparmentListDAL
+			public static List<clsDepartament> DeparmentDAL()
+				return List<clsDepartament> listaDepartamentos
+	HandlersDAL
+
+		clsPersonHandlerDAL
+			public static void deletePersonByIdDAL(int Id)
+			public static void updatePersonDAL(clsPerson newPerson)//Este método añadirá la persona si no existe
+
+		clsDeparmentHandlerDAL
+			public static string getDeparmentNameByIdDAL(int idDeparment)
+				clsDepartament departamento
+			public static void updateDeparmentDAL(clsDeparment newDeparment)//Este método añadirá el departamento si no existe
+
+
+CAPA BL 
+	ListsBL
+		clsPersonListBL
+			public static List<clsPerson> PersonListBL()
+			return List<clsPerson> listaPersonas o adultos en función del día
+			public async static Task<clsPerson> DetailsBL(int id)
+				return clsPerson person
+
+		clsDeparmentListBL
+			public static List<clsDepartament> DeparmentBL()
+				return List<clsDepartament> listaDepartamentos
+	HandlerBL
+
+		clsPersonHandlerBL
+			public static void deletePersonByIdBL(int Id, DateTime.Now.DayOfWeek)
+			public static void updatePersonBL(clsPerson newPerson)//Este método añadirá la persona si no existe
+
+		clsDeparmentHandlerBL
+			public static string getDeparmentNameByIdBL(int idDeparment)
+			public static void updateDeparmentBL(clsDeparment newDeparment)//Este método añadirá la persona si no existe
+
+CAPA UI
+
+	Vistas
+		PersonsListPage
+		DetailsPersonPage
+		EditInsertPersonPage
+		DeparmentsListPage
+		EditInsertDepartamentPage
+
+	VM
+		Utils
+			clsVMBase
+			DelegateCommand
+
+		PersonsListVM
+			List<clsPersonDeparment> listPersonsDepartment //Lista de personas con el nombre del departamento
+			private async void Load() //Método para cargar asincronamente la lista en la página desde el constructor de este VM
+		DetailsPersonVM
+			Recibe una persona para poder ver sus detalles
+		EditInsertPersonVM
+			Recibe una persona para poder editarla
+		DeparmentsListVM
+			List<clsDeparments> listDepartments //Recibe los departamentos para mostrarlos
+			private async void Load() //Método para cargar asincronamente la lista en la página desde el constructor de este VM
+		EditInsertDepartamentVM
+			Recibe un departamento para poder editarlo
+			

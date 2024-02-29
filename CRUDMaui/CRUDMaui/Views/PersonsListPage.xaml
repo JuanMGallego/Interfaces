@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDMaui.Views.PersonsListPage"
+             xmlns:model="clr-namespace:CRUDMaui.ViewModel"
+             BackgroundColor="Beige"
+             Title="PersonsListPage">
+    <ContentPage.BindingContext>
+        <model:PersonsListVM/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout
+
+            VerticalOptions="Start">
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                <Button Text="EDITAR" WidthRequest="200" FontSize="23" MaximumHeightRequest="80" Command="{Binding EditCommand}"  BackgroundColor="Bisque" BorderColor="Black" TextColor="Black" Margin="5"></Button>
+                <Button Text="AÑADIR" WidthRequest="300" FontSize="23" HeightRequest="60" Command="{Binding AddCommand}" BackgroundColor="Bisque" BorderColor="Black" TextColor="Black" Margin="5"></Button>
+                <Button Text="BORRAR" WidthRequest="300" FontSize="23" HeightRequest="60" Command="{Binding DeleteCommand}" BackgroundColor="DarkRed" BorderColor="Black" TextColor="White" Margin="5"></Button>
+            </HorizontalStackLayout>
+            <ActivityIndicator x:Name="cargando" HeightRequest="30" Color="Blue" IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}"/>
+            <ListView x:Name="PersonsListView" ItemsSource="{Binding ListPersonsDepartments}" SelectedItem="{Binding SelectedPerson}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Border StrokeThickness="2" Stroke="Black">
+                                <StackLayout Orientation="Horizontal" Padding="10">
+                                    <Image Source="{Binding foto}" HeightRequest="150"></Image>
+                                    <Label Text="{Binding DepartmentName}" VerticalTextAlignment="Center" Margin="10,0,0,0" FontSize="30"/>
+                                    <Label Text="{Binding nombre}" VerticalTextAlignment="Center" Margin="10,0,0,0" FontSize="30"/>
+                                    <Label Text="{Binding id}" VerticalTextAlignment="Center" Margin="10,0,0,0" FontSize="30"/>
+                                </StackLayout>
+                            </Border>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

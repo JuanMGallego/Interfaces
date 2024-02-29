@@ -7,25 +7,15 @@ namespace Ejercicio03CRUD.ViewModels
 {
     public class EditarInsertarDepartamentoVM : clsVMBase
     {
-        private int _id;
-        private string _nombre;
-
-        public int Id
-        {
-            get => _id;
-            set
-            {
-                _id = value;
-                NotifyPropertyChanged();
-            }
-        }
+        private int _id = 0;
+        private string _NombreDepartamento;
 
         public string Nombre
         {
-            get => _nombre;
+            get { return _NombreDepartamento; }
             set
             {
-                _nombre = value;
+                _NombreDepartamento = value;
                 NotifyPropertyChanged();
             }
         }
@@ -35,19 +25,18 @@ namespace Ejercicio03CRUD.ViewModels
         public EditarInsertarDepartamentoVM()
         {
             GuardarCommand = new DelegateCommand(Guardar);
-
         }
 
         private async void Guardar()
         {
-            // Aquí puedes utilizar Id y Nombre para guardar el departamento
-            Console.WriteLine($"ID: {Id}, Nombre: {Nombre}");
 
-            clsDepartamento oDepartamento = new clsDepartamento(_id, _nombre);
+            clsDepartamento oDepartamento = new clsDepartamento(_id, _NombreDepartamento);
 
             var editarDepartamentosDAL = new HandlerDepartamentosDAL();
 
             await editarDepartamentosDAL.insertaDepartamentoDAL(oDepartamento);
+
+            await Shell.Current.GoToAsync("//ListadoDepartamentosPage");
 
         }
     }

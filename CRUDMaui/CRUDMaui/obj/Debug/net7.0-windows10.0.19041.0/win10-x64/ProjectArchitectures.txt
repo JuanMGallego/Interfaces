@@ -1,0 +1,1 @@
+C:\Users\jmgallego\Downloads\CRUDMaui\CRUDMaui\CRUDMaui\CRUDMaui.csproj;x64

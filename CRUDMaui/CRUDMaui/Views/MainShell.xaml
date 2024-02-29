@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CRUDMaui.Views"
+             x:Class="CRUDMaui.Views.MainShell"
+             Shell.FlyoutBehavior="Flyout">
+    
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="LISTADOS">
+            <ShellContent Title="Departamentos" ContentTemplate="{DataTemplate local:DeparmentsListPage}"/>
+            <ShellContent Title="Personas" ContentTemplate="{DataTemplate local:PersonsListPage}"/>
+        </Tab>
+    </FlyoutItem>
+    
+</Shell>

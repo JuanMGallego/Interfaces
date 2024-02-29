@@ -17,7 +17,7 @@ namespace Ejercicio03CRUD.ViewModels
             set
             {
                 _listadoPersonas = value;
-                OnPropertyChanged();
+                NotifyPropertyChanged();
             }
         }
 
@@ -35,13 +35,6 @@ namespace Ejercicio03CRUD.ViewModels
             {
                 ListadoPersonas.Add(persona);
             }
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

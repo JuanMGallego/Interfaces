@@ -12,6 +12,7 @@ namespace Ejercicio03CRUD.ViewModels
         public DelegateCommand NavigateEditInsertCommand { get; }
 
         private ObservableCollection<clsDepartamento> _listadoDepartamentos;
+        private clsDepartamento departamento;
 
         public ObservableCollection<clsDepartamento> ListadoDepartamentos
         {
@@ -19,7 +20,17 @@ namespace Ejercicio03CRUD.ViewModels
             set
             {
                 _listadoDepartamentos = value;
-                OnPropertyChanged();
+                NotifyPropertyChanged();
+            }
+        }
+
+        public clsDepartamento Departamento
+        {
+            get { return departamento; }
+            set
+            {
+                departamento = value;
+                NotifyPropertyChanged(nameof(Departamento));
             }
         }
 
@@ -32,6 +43,8 @@ namespace Ejercicio03CRUD.ViewModels
 
         private async Task CargarListadoDepartamentos()
         {
+            ListadoDepartamentos.Clear();
+
             var departamentosDAL = new clsListadoDepartamentosDAL();
             var listaDepartamentos = await departamentosDAL.ListadoDepartamentosDAL();
             foreach (var persona in listaDepartamentos)
@@ -40,15 +53,17 @@ namespace Ejercicio03CRUD.ViewModels
             }
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
         private async void NavigateEditInsert()
         {
+
+            if (selectedDepartament == null)
+            {
+                await Shell.Current.GoToAsync($"editDeparment?id={selectedDepartament.ID}");
+            }
+            else
+            {
+                
+            }
             await Shell.Current.GoToAsync("editarInsertarDepartamentoPage");
         }
     }
