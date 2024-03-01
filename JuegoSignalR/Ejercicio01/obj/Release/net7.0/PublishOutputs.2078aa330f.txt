@@ -1,0 +1,10 @@
+C:\Users\jmgallego\Documents\GitHub\Interfaces\EjerciciosTema12\Ejercicio01\obj\Release\net7.0\PubTmp\Out\Ejercicio01.exe
+C:\Users\jmgallego\Documents\GitHub\Interfaces\EjerciciosTema12\Ejercicio01\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\jmgallego\Documents\GitHub\Interfaces\EjerciciosTema12\Ejercicio01\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\jmgallego\Documents\GitHub\Interfaces\EjerciciosTema12\Ejercicio01\obj\Release\net7.0\PubTmp\Out\libman.json
+C:\Users\jmgallego\Documents\GitHub\Interfaces\EjerciciosTema12\Ejercicio01\obj\Release\net7.0\PubTmp\Out\Ejercicio01.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\EjerciciosTema12\Ejercicio01\obj\Release\net7.0\PubTmp\Out\Ejercicio01.deps.json
+C:\Users\jmgallego\Documents\GitHub\Interfaces\EjerciciosTema12\Ejercicio01\obj\Release\net7.0\PubTmp\Out\Ejercicio01.runtimeconfig.json
+C:\Users\jmgallego\Documents\GitHub\Interfaces\EjerciciosTema12\Ejercicio01\obj\Release\net7.0\PubTmp\Out\Ejercicio01.pdb
+C:\Users\jmgallego\Documents\GitHub\Interfaces\EjerciciosTema12\Ejercicio01\obj\Release\net7.0\PubTmp\Out\Models.dll
+C:\Users\jmgallego\Documents\GitHub\Interfaces\EjerciciosTema12\Ejercicio01\obj\Release\net7.0\PubTmp\Out\Models.pdb
