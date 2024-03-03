@@ -10,20 +10,18 @@
             VerticalOptions="Center">
 
             <Label Text="Usuario:"/>
-            <Entry
-                />
+            <Entry x:Name="user"/>
 
-            <Label Text="Contraseña:"/>
-            <Entry
-                />
+            <Label Text="Mensaje"/>
+            <Entry x:Name="message"/>
 
             <Button
                 x:Name="EnviarBtn"
                 Text="Enviar"
-                Clicked="OnCounterClicked"
+                Clicked="btnSend_Clicked"
                 HorizontalOptions="Center" />
 
-            <ListView></ListView>
+            <Label x:Name="lblChat"/>
 
         </VerticalStackLayout>
     </ScrollView>

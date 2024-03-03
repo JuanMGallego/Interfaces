@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
 function createButton() {
     var button = document.createElement("button");
     button.innerHTML = "Click Me";
-    button.className = "button";
+    button.id = "button";
     setRandomPosition(button);
     button.addEventListener("click", function () {
         button.remove(); // Remover el botón al hacer clic en él
-        connection.invoke("PuntuarEnemigo")
+        connection.invoke("ClickedButton")
     });
     document.querySelector(".container").appendChild(button);
 
@@ -32,3 +32,11 @@ function setRandomPosition(element) {
     element.style.left = randomX + "px";
     element.style.top = randomY + "px";
 }
+
+connection.on("ButtonClicked", function () {
+    document.getElementById("button").style.display = "none";
+});
+
+connection.start().catch(function (err) {
+    return console.error(err.toString());
+});

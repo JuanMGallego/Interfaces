@@ -4,9 +4,9 @@ namespace JuegoAgilidadSignalR.Hubs
 {
     public class JuegoHub : Hub
     {
-        public async Task SendMessage(string user, string message)
+        public async Task ClickedButton()
         {
-            await Clients.All.SendAsync("ReceiveMessage", user, message);
+            await Clients.All.SendAsync("ButtonClicked");
         }
     }
 }
