@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JuegoMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3d3c69cb28c92324b8749bf51e81c197c51ab5be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+39b48e9fac0ffcf5d8c4a30f73467ebab46e1bf4")]
 [assembly: System.Reflection.AssemblyProductAttribute("JuegoMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JuegoMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
