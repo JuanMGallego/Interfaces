@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JuegoMAUI.EntrarPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="¿Desea entrar al juego?" 
+               FontSize="Large"
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand"/>
+
+        <Button Text="Entrar"
+                Clicked="OnEntrarClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"/>
+    </StackLayout>
+
+</ContentPage>

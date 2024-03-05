@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JuegoAgilidadSignalR", "JuegoAgilidadSignalR\JuegoAgilidadSignalR.csproj", "{21ED7166-86B6-417F-9968-9D02B0BEC047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuegoMAUI", "JuegoMAUI\JuegoMAUI.csproj", "{A762362D-E19E-4DA7-BC9C-905ED184F15C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JuegoMAUI", "JuegoMAUI\JuegoMAUI.csproj", "{A762362D-E19E-4DA7-BC9C-905ED184F15C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

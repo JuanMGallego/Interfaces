@@ -1,8 +1,4 @@
 is_global = true
-build_property.EnableAotAnalyzer = 
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = false
-build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net7.0-ios
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -12,35 +8,39 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JuegoMAUI
-build_property.ProjectDir = C:\Users\JuanmitaELPRO\Documents\GitHub\Interfaces\JuegoAgilidadSignalR\JuegoMAUI\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\jmgallego\Documents\GitHub\Interfaces\JuegoAgilidadSignalR\JuegoMAUI\
 
-[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/App.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JuegoMAUI.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/AppShell.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JuegoMAUI.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/MainPage.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/EntrarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JuegoMAUI.EntrarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EntrarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EntrarPage.xaml
+
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JuegoMAUI.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/Resources/Styles/Colors.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JuegoMAUI.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/JuanmitaELPRO/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/Resources/Styles/Styles.xaml]
+[C:/Users/jmgallego/Documents/GitHub/Interfaces/JuegoAgilidadSignalR/JuegoMAUI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JuegoMAUI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

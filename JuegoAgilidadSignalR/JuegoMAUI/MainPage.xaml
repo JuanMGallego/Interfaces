@@ -3,12 +3,42 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="JuegoMAUI.MainPage">
 
-    <AbsoluteLayout x:Name="absoluteLayout">
-        <Button x:Name="button" 
-                Text="Púlsame" 
-                Clicked="Button_Clicked" 
-                AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize" 
-                IsVisible="False"/>
-    </AbsoluteLayout>
+    <Grid>
+        <Image Source="https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg" Aspect="AspectFill" />
+
+        <AbsoluteLayout x:Name="absoluteLayout" BackgroundColor="Transparent">
+            <Image x:Name="imageButton" 
+                   Source="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7799297/balloon-clipart-md.png"
+                   AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="100"
+                   HeightRequest="100">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapGestureRecognizerTapped" />
+                </Image.GestureRecognizers>
+            </Image>
+            <StackLayout Orientation="Horizontal" AbsoluteLayout.LayoutBounds="0.5,0.1,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional">
+                <Label x:Name="j1Label"
+                       Text="Tú: 0"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="DarkBlue"
+                       BackgroundColor="LightBlue"
+                       Padding="5"/>
+                <Label x:Name="j2Label"
+                       Text="Oponente: 0"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="DarkRed"
+                       BackgroundColor="LightPink"
+                       Padding="5"/>
+            </StackLayout>
+        </AbsoluteLayout>
+    </Grid>
 
 </ContentPage>

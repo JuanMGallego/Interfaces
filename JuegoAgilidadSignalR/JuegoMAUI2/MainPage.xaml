@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JuegoMAUI2.MainPage">
+
+    <AbsoluteLayout x:Name="absoluteLayout">
+        <Button x:Name="button" 
+                Text="Púlsame" 
+                Clicked="Button_Clicked" 
+                AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize" 
+                IsVisible="False"/>
+        <Label x:Name="opponentCountLabel"
+               Text="Contador Contrincante: 0"
+               AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"/>
+        <Label x:Name="myCountLabel"
+               Text="Mi Contador: 0"
+               AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"/>
+    </AbsoluteLayout>
+
+</ContentPage>
